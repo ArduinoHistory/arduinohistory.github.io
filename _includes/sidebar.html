@@ -1,0 +1,88 @@
+<!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <p>{{ site.description }}</p>
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="/">Home</a>
+
+    {% comment %}
+      The code below dynamically generates a sidebar nav of pages with
+      `layout: page` in the front-matter. See readme for usage.
+    {% endcomment %}
+
+    {% assign pages_list = site.pages | sort:"url" %}
+    {% for node in pages_list %}
+      {% if node.title != null %}
+        {% if node.layout == "page" %}
+          <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+
+    <a class="sidebar-nav-item" href="{{ site.github}}" target="_blank">Correct mistakes on GitHub</a>
+  </nav>
+
+<ul>
+  <li><a href="/#why-are-you-writing-this">Why Are You Writing This?</a></li>
+  <li><a href="/#why-did-you-create-wiring">Why Did You Create Wiring?</a></li>
+  <li><a href="/#how-was-wiring-created">How Was Wiring Created?</a>    <ul>
+      <li><a href="/#the-language">The Language</a></li>
+      <li><a href="/#the-hardware">The Hardware</a>        <ul>
+          <li><a href="/#prototype-1">Prototype 1</a></li>
+          <li><a href="/#prototype-2">Prototype 2</a></li>
+          <li><a href="/#prototype-3">Prototype 3</a></li>
+        </ul>
+      </li>
+      <li><a href="/#continuing-the-development">Continuing the Development</a></li>
+      <li><a href="/#first-major-success---strangely-familiar">First Major Success - Strangely Familiar</a></li>
+      <li><a href="/#the-rest-of-the-world">The Rest of the World</a></li>
+    </ul>
+  </li>
+  <li><a href="/#when-did-arduino-begin-and-why-werent-you-a-member-of-the-arduino-team">When Did Arduino Begin and Why Weren’t You a Member of the Arduino Team?</a>    <ul>
+      <li><a href="/#the-formation-of-arduino">The Formation of Arduino</a></li>
+    </ul>
+  </li>
+  <li><a href="/#did-the-arduino-team-work-with-wiring-before-arduino">Did The Arduino Team Work with Wiring Before Arduino?</a></li>
+  <li><a href="/#what-is-programma2003-and-how-is-it-related-to-you-or-to-wiring">What is Programma2003 and How is it Related to You or to Wiring?</a></li>
+  <li><a href="/#why-hasnt-arduino-acknowledged-wiring-better">Why Hasn’t Arduino Acknowledged Wiring Better?</a></li>
+  <li><a href="/#the-plaintiff-vs-the-defendant">The Plaintiff vs. The Defendant</a></li>
+  <li><a href="/#continuous-misleading-information">Continuous Misleading Information</a>    <ul>
+      <li><a href="/#the-infamous-diagram">The Infamous Diagram</a></li>
+      <li><a href="/#the-arduino-documentary">The Arduino Documentary</a></li>
+    </ul>
+  </li>
+  <li><a href="/#absence-of-recognition-beyond-wiring">Absence of Recognition Beyond Wiring</a></li>
+  <li><a href="/#distorted-public-information">Distorted Public Information</a>    <ul>
+      <li><a href="/#poor-journalism">Poor Journalism</a>        <ul>
+          <li><a href="/#wired">Wired</a></li>
+          <li><a href="/#ieee-spectrum">IEEE Spectrum</a></li>
+          <li><a href="/#circuits-today">Circuits Today</a></li>
+          <li><a href="/#makezine">Makezine</a></li>
+        </ul>
+      </li>
+      <li><a href="/#academic-mistakes">Academic Mistakes</a></li>
+    </ul>
+  </li>
+  <li><a href="/#more-links-for-your-perusal">More Links for Your Perusal</a>    <ul>
+      <li><a href="/#articles-about-arduino-vs-arduino">Articles About Arduino vs. Arduino</a></li>
+      <li><a href="/#video">Video</a></li>
+    </ul>
+  </li>
+  <li><a href="/#thank-you">Thank You!</a></li>
+  <li><a href="/#index">Index</a></li>
+</ul>
+
+  <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
+
+  <div class="sidebar-item">
+    <p>
+      &copy; {{ site.time | date: '%Y' }} {{ site.author.name }}. Distributed with an MIT license.
+    </p>
+  </div>
+</div>

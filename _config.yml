@@ -1,0 +1,35 @@
+# Built with Jekyll 2.5.3
+#
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink: none
+
+# Markdown specs
+markdown: kramdown
+
+kramdown:
+  auto_ids:       true
+  footnote_nr:    1
+  entity_output:  as_char
+  footnote_backlink: "&#x21a9;&#xfe0e;"
+  toc_levels:     1..6
+  smart_quotes:   lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Setup
+title:               The Untold History of Arduino
+tagline:             'by Hernando Barragán'
+description:         'A facts-based, reference-backed account of what happened at the beginning of the Arduino adventure!'
+url:                 https://arduinohistory.github.io
+baseurl:             ''
+
+# About/contact
+author:
+  name:              Hernando Barragán
+  url:               
+  email:             
+
+# Custom vars
+version:             1.0.0
+github:              https://github.com/ArduinoHistory/arduinohistory.github.io
