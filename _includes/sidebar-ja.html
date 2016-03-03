@@ -1,0 +1,90 @@
+<!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <p>
+      事実に基づき、参考文献を引用しながら、Arduinoの初期の冒険の歴史を解説します。
+    </p>
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="/">Home</a>
+
+    {% comment %}
+      The code below dynamically generates a sidebar nav of pages with
+      `layout: page` in the front-matter. See readme for usage.
+    {% endcomment %}
+
+    {% assign pages_list = site.pages | sort:"url" %}
+    {% for node in pages_list %}
+      {% if node.title != null %}
+        {% if node.layout == "page" %}
+          <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+
+    <a class="sidebar-nav-item" href="{{ site.github}}" target="_blank">間違いをみつけたらGitHubで修正してください。</a>
+  </nav>
+
+<ul>
+  <li><a href="/#why-are-you-writing-this">なぜこれを書いているのか</a></li>
+  <li><a href="/#why-did-you-create-wiring">Wiringを作ったのはなぜなのか</a></li>
+  <li><a href="/#how-was-wiring-created">なぜWiringは作られたのか？</a>    <ul>
+      <li><a href="/#the-language">プログラミング言語</a></li>
+      <li><a href="/#the-hardware">ハードウェア</a>        <ul>
+          <li><a href="/#prototype-1">試作1号</a></li>
+          <li><a href="/#prototype-2">試作2号</a></li>
+          <li><a href="/#prototype-3">試作3号</a></li>
+        </ul>
+      </li>
+      <li><a href="/#continuing-the-development">開発の継続</a></li>
+      <li><a href="/#first-major-success---strangely-familiar">最初の大きな成功ーStrangely Familiar</a></li>
+      <li><a href="/#the-rest-of-the-world">他の国</a></li>
+    </ul>
+  </li>
+  <li><a href="/#when-did-arduino-begin-and-why-werent-you-a-member-of-the-arduino-team">Arduinoはいつはじまったのか、なぜArduinoチームのメンバーでないのか</a>    <ul>
+      <li><a href="/#the-formation-of-arduino">Arduinoの形成</a></li>
+    </ul>
+  </li>
+  <li><a href="/#did-the-arduino-team-work-with-wiring-before-arduino">Arduinoチームは、Arduinoの前にWiringと一緒に仕事をしたのか</a></li>
+  <li><a href="/#what-is-programma2003-and-how-is-it-related-to-you-or-to-wiring">Programma2003とは何か、これと私やWiringとの関わり</a></li>
+  <li><a href="/#why-hasnt-arduino-acknowledged-wiring-better">なぜArduinoはWiringをもっと認めてこなかったのですか？</a></li>
+  <li><a href="/#the-plaintiff-vs-the-defendant">原告と被告</a></li>
+  <li><a href="/#continuous-misleading-information">続く紛らわしい情報</a>    <ul>
+      <li><a href="/#the-infamous-diagram">不名誉な図解</a></li>
+      <li><a href="/#the-arduino-documentary">Arduinoドキュメンタリー</a></li>
+    </ul>
+  </li>
+  <li><a href="/#absence-of-recognition-beyond-wiring">Wiring以外の認識の欠如</a></li>
+  <li><a href="/#distorted-public-information">歪んだ公開情報</a>    <ul>
+      <li><a href="/#poor-journalism">お粗末なジャーナリズム</a>        <ul>
+          <li><a href="/#wired">Wired</a></li>
+          <li><a href="/#ieee-spectrum">IEEE Spectrum</a></li>
+          <li><a href="/#circuits-today">Circuits Today</a></li>
+          <li><a href="/#makezine">Makezine</a></li>
+        </ul>
+      </li>
+      <li><a href="/#academic-mistakes">学術的な誤り</a></li>
+    </ul>
+  </li>
+  <li><a href="/#more-links-for-your-perusal">精査のためのリンク集</a>    <ul>
+      <li><a href="/#articles-about-arduino-vs-arduino">「Arduino対Arduino」に関する記事</a></li>
+      <li><a href="/#video">ビデオ</a></li>
+    </ul>
+  </li>
+  <li><a href="/#thank-you">ありがとう！</a></li>
+  <li><a href="/#index">Index</a></li>
+</ul>
+
+  <span class="sidebar-nav-item">現在のバージョン：{{ site.version }}</span>
+
+  <div class="sidebar-item">
+    <p>
+      &copy; {{ site.time | date: '%Y' }} {{ site.author.name }}. MITライセンスで配布。
+    </p>
+  </div>
+</div>

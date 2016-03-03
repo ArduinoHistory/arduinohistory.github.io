@@ -3,6 +3,7 @@ layout: default
 title: Home
 ---
 [Index](#index)
+[日本語](ja.html)
 
 # Why Are You Writing This?
 
