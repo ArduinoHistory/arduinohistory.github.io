@@ -605,7 +605,7 @@ Massimo going to Ted Talk -- candid (2012-08-06)
 
 This is a candid view of Massimo just before performing at a TED Talk.  You can make your own mind up about the majority of the video, however, the most interesting comment, in my opinion, is <a href="https://youtu.be/tZxY8_CNiCw?start=232" data-lity>at the end</a>, where he says:
 
->... Innovation without asking for permission. So, in a way, Open Source allows you to be nobody [sic] without asking for permission.
+>... Innovation without asking for permission. So, in a way, Open Source allows you to be innovative without asking for permission.
 
 * * *
 
