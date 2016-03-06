@@ -324,12 +324,12 @@ Gianluca Martino originally worked for SERP (the factory that made the first 25 
 
 # What is Programma2003 and How is it Related to You or to Wiring?
 
-Programma2003 was a [Microchip](http://www.microchip.com/){: target="_blank"} PIC microcontroller board developed by Massimo Banzi in 2003\. After using BasicX to teach Physical computing in the winter of 2002, Massimo decided to do a board using the PIC chip in 2003\. The problem with the PIC microcontrollers was that there wasn't a [GNU](https://en.wikipedia.org/wiki/GNU){: target="_blank"} (i.e. open source) toolchain available at the time to use a language like C to program it.
+Programma2003 was a [Microchip](http://www.microchip.com/){: target="_blank"} PIC microcontroller board developed by Massimo Banzi in 2003\. After using BasicX to teach Physical computing in the winter of 2002, Massimo decided to do a board using the PIC chip in 2003\. The problem with the PIC microcontrollers was that there wasn't an open source toolchain available at the time, to use a language like C to program them.
 
 <a href="/images/full/Programma2003.jpg" data-lity><img alt="Programma2003" src="/images/Programma2003.jpg" width="600px" height="" /></a>
 ***[Programma2003](https://www.flickr.com/photos/mbanzi/8610131426/in/album-72157633136997919/){: target="_blank"} board designed by Massimo Banzi in 2003***
 
-Because of the lack of a GNU toolchain, Massimo decided to use an environment called [JAL](http://justanotherlanguage.org/){: target="_blank"} (Just Another Language) to program the PIC microcontroller.  JAL was created by Wouter van Ooijen.
+Because of the lack of an open source toolchain, Massimo decided to use an environment called [JAL](http://justanotherlanguage.org/){: target="_blank"} (Just Another Language) to program the PIC microcontroller.  JAL was created by Wouter van Ooijen.
 
 It consisted of the JAL compiler, linker, uploader, bootloader and examples for the PIC.  However, the software would only run on Windows.
 
