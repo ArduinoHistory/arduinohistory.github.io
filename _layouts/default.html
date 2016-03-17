@@ -6,10 +6,14 @@
   <body>
 
     <!-- This if statement decides which sidebar to use -->
-    {% if page.toc %}
-    {% include sidebar-opt.html %}
+    {% if page.sidebar %}
+      {% include {{ page.sidebar }} %}
     {% else %}
-    {% include sidebar.html %}
+      {% if page.toc %}
+      {% include sidebar-opt.html %}
+      {% else %}
+      {% include sidebar.html %}
+      {% endif %}
     {% endif %}
 
 
