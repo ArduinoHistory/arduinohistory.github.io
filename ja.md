@@ -461,13 +461,13 @@ Arduinoチームは、彼らの成功に寄与した重要な人々を認識す�
 
 >そして、良い投資もした：
 
->Arduinoの開発は、Interaction Design Institute Ivreaで約250ユーロの資金提供と共に始まり、行われたんだ。Interaction IvreaがDomusに統合されて終わる前の2005年に、Arduinoがオープンソースとして残したことも良い判断だった。
+>Arduinoの開発は、Interaction Design Institute Ivreaで約25万ユーロの資金提供と共に始まり、行われたんだ。Interaction IvreaがDomusに統合されて終わる前の2005年に、Arduinoがオープンソースとして残したことも良い判断だった。
 
 Massimo Banziの返事はこうです：
 
 >私はIvreaからArduinoに対する資金提供を受けたことがないことを指摘したい（学校の最後の年に50個を買って貰ったことは、さておき。）
 
->250ユーロとは、ばかげてる…
+>25万ユーロとは、ばかげてる…
 
 >この記事は撤回されるべきだ。
 
