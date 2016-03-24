@@ -3,8 +3,9 @@ layout: default
 title: Arduinoの語られざる歴史
 sidebar: sidebar-ja.html
 ---
+[English](/)
+
 [Index](#index)
-[English](.)
 
 これは参考訳です。正確な理解には[原文](.)を読んでください。
 
