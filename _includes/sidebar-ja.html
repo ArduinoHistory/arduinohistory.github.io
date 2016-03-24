@@ -1,0 +1,90 @@
+<!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <p>
+      事実に基づき、参考文献を引用しながら、Arduinoの初期の冒険の歴史を解説します。
+    </p>
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="/">Home</a>
+
+    {% comment %}
+      The code below dynamically generates a sidebar nav of pages with
+      `layout: page` in the front-matter. See readme for usage.
+    {% endcomment %}
+
+    {% assign pages_list = site.pages | sort:"url" %}
+    {% for node in pages_list %}
+      {% if node.title != null %}
+        {% if node.layout == "page" %}
+          <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+
+    <a class="sidebar-nav-item" href="{{ site.github}}" target="_blank">間違いをみつけたらGitHubで修正してください。</a>
+  </nav>
+
+<ul>
+  <li><a href="#section" id="markdown-toc-section">なぜこれを書いているのか</a></li>
+  <li><a href="#wiring" id="markdown-toc-wiring">Wiringを作ったのはなぜなのか</a></li>
+  <li><a href="#wiring-1" id="markdown-toc-wiring-1">なぜWiringは作られたのか？</a>    <ul>
+      <li><a href="#section-1" id="markdown-toc-section-1">プログラミング言語</a></li>
+      <li><a href="#section-2" id="markdown-toc-section-2">ハードウェア</a>        <ul>
+          <li><a href="#section-3" id="markdown-toc-section-3">試作1号</a></li>
+          <li><a href="#section-4" id="markdown-toc-section-4">試作2号</a></li>
+          <li><a href="#section-5" id="markdown-toc-section-5">試作3号</a></li>
+        </ul>
+      </li>
+      <li><a href="#section-6" id="markdown-toc-section-6">開発の継続</a></li>
+      <li><a href="#strangely-familiar" id="markdown-toc-strangely-familiar">最初の大きな成功ーStrangely Familiar</a></li>
+      <li><a href="#section-7" id="markdown-toc-section-7">他の国</a></li>
+    </ul>
+  </li>
+  <li><a href="#arduinoarduino" id="markdown-toc-arduinoarduino">Arduinoはいつはじまったのか、なぜArduinoチームのメンバーでないのか</a>    <ul>
+      <li><a href="#arduino" id="markdown-toc-arduino">Arduinoの形成</a></li>
+    </ul>
+  </li>
+  <li><a href="#arduinoarduinowiring" id="markdown-toc-arduinoarduinowiring">Arduinoチームは、Arduinoの前にWiringと一緒に仕事をしたのか</a></li>
+  <li><a href="#programma2003wiring" id="markdown-toc-programma2003wiring">Programma2003とは何か、私やWiringとの関わり</a></li>
+  <li><a href="#arduinowiring" id="markdown-toc-arduinowiring">なぜArduinoはWiringをもっと認めてこなかったのですか？</a></li>
+  <li><a href="#section-8" id="markdown-toc-section-8">原告と被告</a></li>
+  <li><a href="#section-9" id="markdown-toc-section-9">誤解させる情報の継続</a>    <ul>
+      <li><a href="#section-10" id="markdown-toc-section-10">不名誉な図解</a></li>
+      <li><a href="#arduino-1" id="markdown-toc-arduino-1">Arduinoドキュメンタリー</a></li>
+    </ul>
+  </li>
+  <li><a href="#section-11" id="markdown-toc-section-11">その他の寄与の無視</a></li>
+  <li><a href="#section-12" id="markdown-toc-section-12">歪められた公開情報</a>    <ul>
+      <li><a href="#section-13" id="markdown-toc-section-13">お粗末なジャーナリズム</a>        <ul>
+          <li><a href="#wired" id="markdown-toc-wired">Wired</a></li>
+          <li><a href="#ieee-spectrum" id="markdown-toc-ieee-spectrum">IEEE Spectrum</a></li>
+          <li><a href="#circuits-today" id="markdown-toc-circuits-today">Circuits Today</a></li>
+          <li><a href="#makezine" id="markdown-toc-makezine">Makezine</a></li>
+        </ul>
+      </li>
+      <li><a href="#section-14" id="markdown-toc-section-14">学術的な誤り</a></li>
+    </ul>
+  </li>
+  <li><a href="#section-15" id="markdown-toc-section-15">精査のためのリンク集</a>    <ul>
+      <li><a href="#arduinoarduino-1" id="markdown-toc-arduinoarduino-1">「Arduino対Arduino」に関する記事</a></li>
+      <li><a href="#section-16" id="markdown-toc-section-16">ビデオ</a></li>
+    </ul>
+  </li>
+  <li><a href="#section-17" id="markdown-toc-section-17">ありがとう！</a></li>
+  <li><a href="#index" id="markdown-toc-index">Index</a></li>
+</ul>
+
+  <span class="sidebar-nav-item">現在のバージョン：{{ site.version }}</span>
+
+  <div class="sidebar-item">
+    <p>
+      &copy; {{ site.time | date: '%Y' }} {{ site.author.name }}. MITライセンスで配布。
+    </p>
+  </div>
+</div>
