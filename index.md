@@ -2,8 +2,9 @@
 layout: default
 title: Home
 ---
-[Index](#index)
 [日本語](ja.html)
+
+[Index](#index)
 
 # Why Are You Writing This?
 
