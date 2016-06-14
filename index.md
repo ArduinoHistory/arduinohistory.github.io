@@ -181,7 +181,7 @@ I hand-soldered these 25 boards and started to conduct usability tests with some
 
 After graduating from IDII in 2004, I moved back to Colombia, and began teaching as an instructor in Interaction Design at the Universidad de Los Andes. As I continued to develop Wiring, IDII decided to print and assemble a batch of 100 Wiring boards to teach physical computing at IDII in late 2004. [Bill Verplank](http://www.billverplank.com/){: target="_blank"} (a former IDII faculty member) asked Massimo Banzi to send 10 of the boards to me for use in my classes in Colombia.
 
-In 2004, Faculty member [Yaniv Steiner](http://www.nastypixel.com/prototype/people/yaniv-steiner-2){: target="_blank"}, former student of Giorgio Olivero and Paolo Sancis, started the [Instant Soup Project](http://www.nastypixel.com/instantsoup/website/cover/){: target="_blank"}, based on Wiring at IDII.
+In 2004, Faculty member [Yaniv Steiner](http://www.nastypixel.com/prototype/people/yaniv-steiner-2){: target="_blank"}, former student Giorgio Olivero, and information designer consultant Paolo Sancis started the [Instant Soup Project](http://www.nastypixel.com/instantsoup/website/cover/){: target="_blank"}, based on Wiring at IDII.
 
 ## First Major Success - Strangely Familiar
 
