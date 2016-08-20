@@ -3,6 +3,7 @@ _gh_pages
 _site
 .ruby-version
 .jekyll-metadata
+Gemfile.lock
 
 # Numerous always-ignore extensions
 *.diff
@@ -30,3 +31,6 @@ nbproject
 *.sublime-project
 *.sublime-workspace
 .idea
+
+# Vagrant
+.vagrant/
