@@ -33,3 +33,36 @@ author:
 # Custom vars
 version:             1.0.0
 github:              https://github.com/ArduinoHistory/arduinohistory.github.io
+
+# Exclude files
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - Rakefile
+  - README
+  - tmp
+  - "*.txt"
+  - "*.bak"
+  - "*.php"
+  - "*.sh"
+  - "*.zip"
+  - "Vagrantfile"
+  - "test"
+  - readme.md

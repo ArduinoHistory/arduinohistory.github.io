@@ -1,0 +1,90 @@
+<!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <p>
+      Sulla base del fatto, citando i riferimenti, e descrive la storia delle prime avventure di Arduino.
+    </p>
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="/">Home</a>
+
+    {% comment %}
+      The code below dynamically generates a sidebar nav of pages with
+      `layout: page` in the front-matter. See readme for usage.
+    {% endcomment %}
+
+    {% assign pages_list = site.pages | sort:"url" %}
+    {% for node in pages_list %}
+      {% if node.title != null %}
+        {% if node.layout == "page" %}
+          <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+
+    <a class="sidebar-nav-item" href="{{ site.github}}" target="_blank">Si prega di correggere su GitHub Se si trova un errore.</a>
+  </nav>
+
+<ul>
+  <li><a href="#perch-hai-deciso-di-scrivere-questo-articolo">Perché hai deciso di scrivere questo articolo?</a></li>
+  <li><a href="#perch-hai-creato-wiring">Perché hai creato Wiring?</a></li>
+  <li><a href="#come--stato-creato-wiring">Come è stato creato Wiring?</a>    <ul>
+      <li><a href="#il-linguaggio">Il linguaggio</a></li>
+      <li><a href="#lhardware">L’Hardware</a>        <ul>
+          <li><a href="#prototipo-1">Prototipo 1</a></li>
+          <li><a href="#prototipo-2">Prototipo 2</a></li>
+          <li><a href="#prototipo-3">Prototipo 3</a></li>
+        </ul>
+      </li>
+      <li><a href="#sviluppo-successivo">Sviluppo successivo</a></li>
+      <li><a href="#primo-grande-successo---strangely-familiar">Primo grande successo - Strangely Familiar</a></li>
+      <li><a href="#il-resto-del-mondo">Il resto del mondo</a></li>
+    </ul>
+  </li>
+  <li><a href="#quando-venne-avviato-arduino-e-perch-non-eri-un-membro-del-team-di-arduino">Quando venne avviato Arduino e perché non eri un membro del team di Arduino?</a>    <ul>
+      <li><a href="#la-formazione-di-arduino">La formazione di Arduino</a></li>
+    </ul>
+  </li>
+  <li><a href="#il-team-di-arduino-lavor-con-wiring-prima-della-nascita-di-arduino">Il Team di Arduino lavorò con Wiring prima della nascita di Arduino?</a></li>
+  <li><a href="#che-cos-programma2003-e-in-che-modo-si-collega-allutente-o-a-wiring">Che cos’è Programma2003 e in che modo si collega all’utente o a Wiring?</a></li>
+  <li><a href="#perch-arduino-non-ha-riconosciuto-wiring-in-maniera-migliore">Perché Arduino non ha riconosciuto Wiring in maniera migliore?</a></li>
+  <li><a href="#il-ricorrente-vs-laccusato">Il ricorrente vs l’accusato</a></li>
+  <li><a href="#continue-informazioni-fuorvianti">Continue informazioni fuorvianti</a>    <ul>
+      <li><a href="#the-infamous-diagram">The Infamous Diagram</a></li>
+      <li><a href="#il-documentario-di-arduino">Il documentario di Arduino</a></li>
+    </ul>
+  </li>
+  <li><a href="#assenza-di-riconoscimento-oltre-wiring">Assenza di riconoscimento oltre Wiring</a></li>
+  <li><a href="#informazione-pubblica-distorta">Informazione pubblica distorta</a>    <ul>
+      <li><a href="#giornalismo-povero">Giornalismo povero</a>        <ul>
+          <li><a href="#wired">Wired</a></li>
+          <li><a href="#ieee-spectrum">IEEE Spectrum</a></li>
+          <li><a href="#circuits-today">Circuits Today</a></li>
+          <li><a href="#makezine">Makezine</a></li>
+        </ul>
+      </li>
+      <li><a href="#errori-accademici">Errori accademici</a></li>
+    </ul>
+  </li>
+  <li><a href="#ulteriori-link-per-la-vostra-verifica">Ulteriori link per la vostra verifica</a>    <ul>
+      <li><a href="#articoli-su-arduino-vs-arduino">Articoli su Arduino vs. Arduino</a></li>
+      <li><a href="#video">Video</a></li>
+    </ul>
+  </li>
+  <li><a href="#grazie">Grazie!</a></li>
+  <li><a href="#index">Index</a></li>
+</ul>
+
+  <span class="sidebar-nav-item">La versione attuale：{{ site.version }}</span>
+
+  <div class="sidebar-item">
+    <p>
+      &copy; {{ site.time | date: '%Y' }} {{ site.author.name }}. Distribuito sotto licenza MIT.
+    </p>
+  </div>
+</div>
