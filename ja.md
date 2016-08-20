@@ -3,7 +3,7 @@ layout: default
 title: Arduinoの語られざる歴史
 sidebar: sidebar-ja.html
 ---
-[English](/)
+[English](/) &middot; [italiano](it)
 
 [Index](#index)
 
