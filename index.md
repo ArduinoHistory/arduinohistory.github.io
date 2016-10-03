@@ -2,7 +2,7 @@
 layout: default
 title: Home
 ---
-[日本語](ja) &middot; [italiano](it)
+[日本語](ja) &middot; [italiano](it) &middot; [Deutsche](de)
 
 [Index](#index)
 
