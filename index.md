@@ -12,7 +12,7 @@ Hello.  My name is Hernando Barragán.
 
 Through the years, and more recently due to the affairs between [Arduino LLC and Arduino S.R.L.](http://hackaday.com/2015/03/12/arduino-v-arduino-part-ii/){: target="_blank"}, I have received a lot of questions from people about the history of Wiring and, of course, Arduino.
 
-I was also shown [this US Federal Courts website](https://www.unitedstatescourts.org/federal/mad/167131/){: target="_blank"}, which presents documents citing my work to support the plaintiff's claims which, in my opinion, contribute to the distortion of information surrounding my work.
+I was also shown [this US Federal Courts website](https://www.courtlistener.com/docket/4275827/arduino-llc-v-arduino-srl/){: target="_blank"}, which presents documents citing my work to support the plaintiff's claims which, in my opinion, contribute to the distortion of information surrounding my work.
 
 The history of Arduino has been told by many people, and no two stories match.  I want to clarify some facts around the history of Arduino, with proper supported references and documents, to better communicate to people who are interested, about Arduino's origin.
 
