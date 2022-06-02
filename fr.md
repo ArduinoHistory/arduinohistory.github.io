@@ -1,9 +1,9 @@
-
 ---
 layout: default
-title: Home
+title: L'histoire inconnu de l'Arduino
+sidebar: sidebar.html
 ---
-[日本語](ja) &middot; [italiano](it) &middot; [Deutsche](de) &middot; [Français](fr)
+[English](/) &middot; [日本語](ja) &middot; [Deutsche](de) &middot; [italiano](it)
 
 [Index](#index)
 
@@ -11,7 +11,7 @@ title: Home
 
 Bonjour. Je m'appelle Hernando Barragán.
 
-Au fil des ans, et plus récemment en raison des affaires entre [Arduino LLC and Arduino S.R.L.](http://hackaday.com/2015/03/12/arduino-v-arduino-part-ii/){: target="_blank"}, j'ai reçu beaucoup de questions sur l'histoire de Wiring et, bien sûr, d'Arduino.
+Au fil des années, et plus récemment à cause des affaires entre [Arduino LLC and Arduino S.R.L.](http://hackaday.com/2015/03/12/arduino-v-arduino-part-ii/){: target="_blank"}, j'ai reçu beaucoup de questions sur l'histoire de Wiring et, bien sûr, d'Arduino.
 
 On m'a également montré [ce site Web des tribunaux fédéraux des États-Unis](https://www.unitedstatescourts.org/federal/mad/167131/){: target="_blank"}, qui présente des documents citant mon travail pour appuyer les allégations du plaignant qui, à mon avis, contribuent à la déformation des informations entourant mon travail.
 
