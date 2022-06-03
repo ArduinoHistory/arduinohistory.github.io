@@ -143,83 +143,83 @@ La carte d'évaluation FTDI a été interfacée avec la carte MAVRIC et testée 
 </div>
 ***Test avec la carte BDMICRO MAVRIC-II et le FTDI-FT232BM.***
 
-In early 2004, based on the prototype using the MAVRIC board (Prototype 3), I used Brian Dean's and Pascal Stang's schematic designs as a reference to create the first Wiring board design.  It had the following features:
+Au début de 2004, sur la base du prototype utilisant la carte MAVRIC (Prototype 3), j'ai utilisé les schémas de Brian Dean et Pascal Stang comme référence pour créer la première conception de la carte de Wiring. Il avait les caractéristiques suivantes :
 
 *   ATmega128
-*   FTDI232BM for serial to USB conversion
-*   An on-board LED connected to a pin
-*   A power LED and serial RX/TX LEDs
+*   FTDI232BM pour le série et la conversion USB
+*   Une LED embarquée connectée à une broche
+*   Une LED sur l'alimentation et pour deux LEDS pour les RX/TX de la communication série.
 
-I used [Eagle PCB from Cadsoft](http://www.cadsoftusa.com/){: target="_blank"} to design the schematic and printed circuit board.
+J'ai utilisé [Eagle PCB from Cadsoft](http://www.cadsoftusa.com/){: target="_blank"} pour concevoir le schéma et le circuit imprimé.
 
 <a href="/images/full/Wiring-schematic.png" data-lity><img alt="Wiring board schematic" src="/images/Wiring-schematic.png" width="600px" height="" /></a>
-***Wiring board schematic.***
+***Schéma électrique de la carte Wiring.***
 
 <a href="/images/full/Wiring-pcb.png" data-lity><img alt="Wiring board PCB" src="/images/Wiring-pcb.png" width="600px" height="" /></a>
-***Wiring board printed circuit board layout.***
+***Layout du circuit imprimée de la carte Wiring.***
 
-Along with the third prototype, the final version of the API was tested and refined. More examples were added and I wrote the first LED blink example *that is still used today* as the first sketch that a user runs on an Arduino board to learn the environment. Even more examples were developed to support liquid crystal displays (LCDs), serial port communication, servo motors, etc. and even to interface Wiring with Processing via serial communication. Details can be found on page 50 in the thesis document.
+Parallèlement au troisième prototype, la version finale de l'API a été testée et affinée. D'autres exemples ont été ajoutés et j'ai écrit le premier exemple Blink pour la LED * qui est encore utilisé aujourd'hui * comme le premier croquis qu'un utilisateur exécute sur une carte Arduino pour apprendre l'environnement. Encore plus d'exemples ont été développés pour prendre en charge les écrans à cristaux liquides (LCD), la communication par port série, les servomoteurs, etc. et même pour interfacer Wiring avec Processing via une communication série. Les détails se trouvent à la page 50 de ma thèse.
 
-In March 2004, 25 Wiring printed circuit boards were ordered and manufactured at [SERP](http://www.serp.it/){: target="_blank"}, and paid for by IDII.
+En Mars 2004, 25 circuits imprimés de la carte Wiring ont été commandées et fabriquées chez [SERP](http://www.serp.it/){: target="_blank"}, et payées par IDII.
 
-I hand-soldered these 25 boards and started to conduct usability tests with some of my classmates at IDII. It was an exciting time!
+J'ai soudé ces 25 cartes à la main et j'ai commencé à effectuer des tests d'ergonomie avec certains de mes camarades de classe à l'IDII. C'était une période passionnante !
 
 <div>
 <span style="overflow: hidden; display: inline-block;">
-<a href="/images/full/WiringBoard-Assembled.jpg" data-lity><img alt="Wiring PCB first article" src="/images/WiringBoard-Assembled.jpg" width="300px" height="" /></a></span>
+<a href="/images/full/WiringBoard-Assembled.jpg" data-lity><img alt="Première article sur le PCB de Wiring" src="/images/WiringBoard-Assembled.jpg" width="300px" height="" /></a></span>
 <span style="overflow: hidden; display: inline-block;">
-<a href="/images/full/WiringBoard-ShowingOff.jpg" data-lity><img alt="Showing Off Wiring Board" src="/images/WiringBoard-ShowingOff.jpg" width="300px" height="" /></a></span>
+<a href="/images/full/WiringBoard-ShowingOff.jpg" data-lity><img alt="Démonstration de la carte Wiring" src="/images/WiringBoard-ShowingOff.jpg" width="300px" height="" /></a></span>
 </div>
 <div>
 <span style="overflow: hidden; display: inline-block;">
-<a href="/images/full/WorkingWithFirstWiring-1.jpg" data-lity><img alt="Working with the first Wiring Boards" src="/images/WorkingWithFirstWiring-1.jpg" width="300px" height="" /></a></span>
+<a href="/images/full/WorkingWithFirstWiring-1.jpg" data-lity><img alt="Travail sur les premières cartes Wiring" src="/images/WorkingWithFirstWiring-1.jpg" width="300px" height="" /></a></span>
 <span style="overflow: hidden; display: inline-block;">
-<a href="/images/full/WorkingWithFirstWiring-2.jpg" data-lity><img alt="Working with the first Wiring Boards" src="/images/WorkingWithFirstWiring-2.jpg" width="300px" height="" /></a></span>
+<a href="/images/full/WorkingWithFirstWiring-2.jpg" data-lity><img alt="Travail sur les premières cartes Wiring" src="/images/WorkingWithFirstWiring-2.jpg" width="300px" height="" /></a></span>
 </div>
-***Photos of the first Wiring board***
+***Photos des premières cartes Wiring***
 
-## Continuing the Development
+## Poursuite du développement
 
-After graduating from IDII in 2004, I moved back to Colombia, and began teaching as an instructor in Interaction Design at the Universidad de Los Andes. As I continued to develop Wiring, IDII decided to print and assemble a batch of 100 Wiring boards to teach physical computing at IDII in late 2004. [Bill Verplank](http://www.billverplank.com/){: target="_blank"} (a former IDII faculty member) asked Massimo Banzi to send 10 of the boards to me for use in my classes in Colombia.
+Après avoir obtenu mon diplôme à l'IDII en 2004, je suis retourné en Colombie et j'ai commencé à enseigner en tant qu'instructeur en conception interactive à l'Universidad de Los Andes. Alors que je continuais à développer Wiring, IDII a décidé de fabriquer et d'assembler un lot de 100 cartes Wiring pour enseigner le physical computing à IDII fin 2004. [Bill Verplank](http://www.billverplank.com/){: target=" _blank"} (un ancien membre du corps professoral de l'IDII) a demandé à Massimo Banzi de m'envoyer 10 cartes pour que je l'ai utilise dans mes cours en Colombie.
 
-In 2004, Faculty member [Yaniv Steiner](http://www.nastypixel.com/prototype/people/yaniv-steiner-2){: target="_blank"}, former student Giorgio Olivero, and information designer consultant Paolo Sancis started the [Instant Soup Project](http://www.nastypixel.com/instantsoup/website/cover/){: target="_blank"}, based on Wiring at IDII.
+En 2004, le membre du corps professoral [Yaniv Steiner](http://www.nastypixel.com/prototype/people/yaniv-steiner-2){: target="_blank"}, l'ancien étudiant Giorgio Olivero et le consultant en conception d'informations Paolo Sancis a lancé le [Instant Soup Project](http://www.nastypixel.com/instantsoup/website/cover/){: target="_blank"}, basé sur Wiring at IDII.
 
-## First Major Success - Strangely Familiar
+## Premier succès majeur - Strangely Familiar
 
-In the autumn of 2004, Wiring was used to teach physical computing at IDII through a project called Strangely Familiar, consisting of 22 students, and 11 successful projects. Four faculty members ran the 4-week project:
+À l'automne 2004, Wiring a été utilisé pour enseigner le physical computing à l'IDII dans le cadre d'un projet appelé Strangely Familiar, composé de 22 étudiants et de 11 projets réussis. Quatre membres du corps professoral ont dirigé le projet de 4 semaines :
 
 *   Massimo Banzi
 *   Heather Martin
 *   Yaniv Steiner
 *   Reto Wettach
 
-It turned out to be a resounding success for both the students as well as the professors and teachers.  Strangely Familiar demonstrated the potential of Wiring as an innovation platform for interaction design.
+Il fini par être un succès retentissant tant pour les étudiants que pour les professeurs et les enseignants. Strangely Familiar a démontré le potentiel de Wiring en tant que plate-forme d'innovation pour la conception interactive
 
-On December 16th, 2004, Bill Verplank sent an email to me saying:
+Le 16 décembre 2004, Bill Verplank m'a envoyé un e-mail disant :
 
->[The projects] were wonderful.  Everyone had things working.  Five of the projects had motors in them!  The most advanced (from two MIT grads - architect and mathematician) allowed drawing a profile in Proce55ing and feeling it with a wheel/motor run by Wiring...
+>[Les projets] étaient merveilleux. Tout le monde avait des résultats fonctionnels. Cinq des projets avaient même des moteurs ! Les projets les plus avancés (de deux diplômés du MIT - architecte et mathématicien) ont permis de dessiner un profil dans Proce55ing et de le ressentir avec une roue/moteur piloté par Wiring...
 
->It is clear that one of the elements of success was [the] use of the Wiring board.
+>Il est clair que l'un des éléments du succès a été [l']utilisation des cartes Wiring.
 
-Here is the brief for the course:
+Voici le résumé du cours ::
 
 * [http://wiring.org.co/exhibition/images/brief.pdf](http://wiring.org.co/exhibition/images/brief.pdf){: target="_blank"}
 
-Here is a booklet with the resulting projects:
+Voici un livret avec les projets qui en résultent ::
 
 * [http://wiring.org.co/exhibition/images/book01.pdf](http://wiring.org.co/exhibition/images/book01.pdf){: target="_blank"}
 
 <div>
 <span style="overflow: hidden; display: inline-block;">
-<a href="/images/full/TugTug-Testing.jpg" data-lity><img alt="Working on Tug Tug (Haiyan Zhang)" src="/images/TugTug-Testing.jpg" width="300px" height="" /></a></span>
+<a href="/images/full/TugTug-Testing.jpg" data-lity><img alt="Travail sur Tug Tug (Haiyan Zhang)" src="/images/TugTug-Testing.jpg" width="300px" height="" /></a></span>
 <span style="overflow: hidden; display: inline-block;">
 <a href="/images/full/TugTug.jpg" data-lity><img alt="Tug Tug" src="/images/TugTug.jpg" width="300px" height="" /></a></span>
 </div>
-***Tug Tug phones by Haiyan Zhang (with Aram Armstrong)***
+***Téléphone Tug Tug par Haiyan Zhang (avec Aram Armstrong)***
 
 <div>
 <span style="overflow: hidden; display: inline-block;">
-<a href="/images/full/CommitmentRadio-Testing.jpg" data-lity><img alt="Working on Commitment Radio" src="/images/CommitmentRadio-Testing.jpg" width="300px" height="" /></a></span>
+<a href="/images/full/CommitmentRadio-Testing.jpg" data-lity><img alt="Travail sur Commitment Radio" src="/images/CommitmentRadio-Testing.jpg" width="300px" height="" /></a></span>
 <span style="overflow: hidden; display: inline-block;">
 <a href="/images/full/CommitmentRadio.jpg" data-lity><img alt="Commitment Radio" src="/images/CommitmentRadio.jpg" width="300px" height="" /></a></span>
 </div>
@@ -227,46 +227,46 @@ Here is a booklet with the resulting projects:
 
 <div>
 <span style="overflow: hidden; display: inline-block;">
-<a href="/images/full/SpeakOut-Testing.jpg" data-lity><img alt="Working on Speak Out" src="/images/SpeakOut-Testing.jpg" width="300px" height="" /></a></span>
+<a href="/images/full/SpeakOut-Testing.jpg" data-lity><img alt="Travail sur Speak Out" src="/images/SpeakOut-Testing.jpg" width="300px" height="" /></a></span>
 <span style="overflow: hidden; display: inline-block;">
 <a href="/images/full/SpeakOut.jpg" data-lity><img alt="Speak Out" src="/images/SpeakOut.jpg" width="300px" height="" /></a></span>
 </div>
-***[Speak Out](http://www.andreeachelaru.com/ThesisOther.htm){: target="_blank"} by Tristam Sparks and Andreea Cherlaru (with Ana Camila Amorim)***
+***[Speak Out](http://www.andreeachelaru.com/ThesisOther.htm){: target="_blank"} par Tristam Sparks et Andreea Cherlaru (avec Ana Camila Amorim)***
 
 <div>
 <span style="overflow: hidden; display: inline-block;">
-<a href="/images/full/FeelTheMusicI-Testing.jpg" data-lity><img alt="Working on Feel the Music I" src="/images/FeelTheMusicI-Testing.jpg" width="300px" height="" /></a></span>
+<a href="/images/full/FeelTheMusicI-Testing.jpg" data-lity><img alt="Travail sur Feel the Music I" src="/images/FeelTheMusicI-Testing.jpg" width="300px" height="" /></a></span>
 <span style="overflow: hidden; display: inline-block;">
 <a href="/images/full/FeelTheMusicI.jpg" data-lity><img alt="Feel the Music I" src="/images/FeelTheMusicI.jpg" width="300px" height="" /></a></span>
 </div>
-***Feel the Music I by James Tichenor and David A. Mellis***
+***Feel the Music I par James Tichenor et David A. Mellis***
 
 <div>
 <span style="overflow: hidden; display: inline-block;">
-<a href="/images/full/TheAmazingAllBandRadio-Testing.jpg" data-lity><img alt="Working on The Amazing All Band Radio" src="/images/TheAmazingAllBandRadio-Testing.jpg" width="300px" height="" /></a></span>
+<a href="/images/full/TheAmazingAllBandRadio-Testing.jpg" data-lity><img alt="Travail sur The Amazing All Band Radio" src="/images/TheAmazingAllBandRadio-Testing.jpg" width="300px" height="" /></a></span>
 <span style="overflow: hidden; display: inline-block;">
 <a href="/images/full/TheAmazingAllBandRadio.jpg" data-lity><img alt="The Amazing All Band Radio" src="/images/TheAmazingAllBandRadio.jpg" width="300px" height="" /></a></span>
 </div>
-***[The Amazing All Band Radio](http://neighbourhoodsatellites.com/project/the-amazing-all-band-radio/){: target="_blank"} by Oren Horev & Myriel Milicevic (with Marcos Weskamp)***
+***[The Amazing All Band Radio](http://neighbourhoodsatellites.com/project/the-amazing-all-band-radio/){: target="_blank"} par Oren Horev & Myriel Milicevic (avec Marcos Weskamp)***
 
-## The Rest of the World
+## Le reste du monde
 
-In May 2005, I contracted [Advanced Circuits](http://www.4pcb.com/){: target="_blank"} in the USA to print the first 200 printed circuit boards outside of IDII, and assembled them in Colombia.  I began selling and shipping boards to various schools and universities, and by the end of 2005, Wiring was being used around the world.
+En mai 2005, j'ai passé un contrat avec [Advanced Circuits](http://www.4pcb.com/){: target="_blank"} aux États-Unis pour fabriquer les 200 premiers circuits imprimés en dehors d'IDII, et je les ai assemblées en Colombie.  J'ai commencé à vendre et à expédier des cartes à diverses écoles et universités, et à la fin de 2005, Wiring était utilisé dans le monde entier.
 
 <a href="/images/full/WiringsReachBy2005.png" data-lity><img alt="Wiring's Reach by 2005" src="/images/WiringsReachBy2005.png" width="600px" height="" /></a>
-***"Wiring's Reach by 2005" graphic, provided by [Collin Reisdorf](https://twitter.com/nillocr){: target="_blank"}***
+***"Graphique de la portée de Wiring's en 2005" fourni par [Collin Reisdorf](https://twitter.com/nillocr){: target="_blank"}***
 
 * * *
 
-# When Did Arduino Begin and Why Weren't You a Member of the Arduino Team?
+# Quand Arduino a-t-il commencé et pourquoi n'étiez-vous pas membre de l'équipe Arduino ?
 
-## The Formation of Arduino
+## La formation d'Arduino
 
-When IDII manufactured the first set of Wiring boards, the cost was probably around USD$50 each. (I don't know what the actual cost was, as I wasn't involved in the process.  However, I was selling the boards from Colombia for about USD$60.)  This was a considerable drop in price from the boards that were currently available, but it was still a significant cost for most people.
+Lorsque IDII a fabriqué le premier ensemble de cartes Wiring, le coût était probablement d'environ 50$ USD chacun. (Je ne sais pas quel était le coût réel, car je n'étais pas impliqué dans le processus. Cependant, je vendais les cartes en Colombie pour environ 60$ USD.) C'était une baisse de prix considérable par rapport aux cartes qui étaient actuellement disponible, mais cela représentait toujours un coût important pour la plupart des gens.
 
-In 2005, Massimo Banzi, along with David Mellis (an IDII student at the time) and David Cuartielles, added support for the cheaper ATmega8 microcontroller to Wiring. Then they forked (or copied) the Wiring source code and started running it as a separate project, called Arduino.
+En 2005, Massimo Banzi, avec David Mellis (un étudiant IDII à l'époque) et David Cuartielles, ont ajouté la prise en charge du microcontrôleur ATmega8 moins cher par Wiring. Ensuite, ils ont forké (ou copié) le code source de Wiring et ont commencé à travailler dessus en tant que projet distinct, appelé Arduino.
 
-There was no need to create a separate project, as I would have gladly helped them and developed support for the ATmega8 and any other microcontrollers.  I had planned to do this all along.
+Il n'y avait aucune raison de créer un projet séparé, car je les aurais volontiers aidés et développé le support de l'ATmega8 ou de toute autre microcontrôleur. J'avais prévu de faire ça depuis le début.
 
 <a href="/images/full/FuturePlansForWiring.png" data-lity><img alt="Future Plans for Wiring" src="/images/FuturePlansForWiring.png" width="600px" height="" /></a>
 ***I had inadvertantly taken a photo of some notes about my plans for Wiring, in the photo of Karmen Franinovic (former IDII student from 2002 to 2004) testing a stretch sensor for a lamp in March 2004.***
