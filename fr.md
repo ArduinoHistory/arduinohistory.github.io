@@ -268,24 +268,26 @@ En 2005, Massimo Banzi, avec David Mellis (un étudiant IDII à l'époque) et Da
 
 Il n'y avait aucune raison de créer un projet séparé, car je les aurais volontiers aidés et développé le support de l'ATmega8 ou de toute autre microcontrôleur. J'avais prévu de faire ça depuis le début.
 
-<a href="/images/full/FuturePlansForWiring.png" data-lity><img alt="Future Plans for Wiring" src="/images/FuturePlansForWiring.png" width="600px" height="" /></a>
-***I had inadvertantly taken a photo of some notes about my plans for Wiring, in the photo of Karmen Franinovic (former IDII student from 2002 to 2004) testing a stretch sensor for a lamp in March 2004.***
+<a href="/images/full/FuturePlansForWiring.png" data-lity><img alt="Plans futurs pour Wiring" src="/images/FuturePlansForWiring.png" width="600px" height="" /></a>
+***J'avais pris par inadvertance une photo de quelques notes sur mes projets pour Wiring, sur la photo de Carmen Frankovic (ancienne étudiante IDII de 2002 à 2004) test d'un capteur flexible pour une lampe en mars 2004.***
 
-Wiring and Arduino shared many of the early development done by [Nicholas Zambetti](http://www.zambetti.com/projects/arduino/){: target="_blank"}, a former IDII student in the same class as David Mellis.  For a brief time, Nicholas had been considered a member of the Arduino Team.
+Wiring et Arduino ont partagé une grande partie des premiers développements effectués par [Nicholas Zambetti](http://www.zambetti.com/projects/arduino/){: target="_blank"}, un ancien élève de l'IDII dans la même classe que David Melis. Pendant une brève période, Nicholas avait été considéré comme un membre de l'équipe Arduino.
 
-Around the same time, Gianluca Martino (he was a consultant at SERP, the printed circuit board factory at Ivrea where the first Wiring boards were made), joined the Arduino Team to help with manufacturing and hardware development. So, to reduce the cost of their boards, Gianluca, with some help from David Cuartielles, developed cheaper hardware by using the ATmega8.
+À peu près à la même époque, Gianluca Martino (il était consultant chez SERP, l'usine de circuits imprimés d'Ivrea où les premières cartes Wiring ont été fabriquées), a rejoint l'équipe Arduino pour aider à la fabrication et au développement du hardware. Ainsi, pour réduire le coût de leurs cartes, Gianluca, avec l'aide de David Cuartielles, a développé du matériel à un prix inférieur en utilisant l'ATmega8.
 
-<a href="/images/full/ArduinoPrototype1.jpg" data-lity><img alt="Arduino's First Prototype: Wiring Lite" src="/images/ArduinoPrototype1.jpg" width="600px" height="" /></a>
-***Apparently this is [the first "Arduino" prototype](https://www.flickr.com/photos/mbanzi/172472136/in/album-72157594173657338/){: target="_blank"} - dubbed Wiring Lite. I think Massimo Banzi designed this one, but I'm unsure.***
+<a href="/images/full/ArduinoPrototype1.jpg" data-lity><img alt="Premier prototype d'Arduino : Wiring Lite" src="/images/ArduinoPrototype1.jpg" width="600px" height="" /></a>
+***Apparemment, c'est [le premier prototype "Arduino"](https://www.flickr.com/photos/mbanzi/172472136/in/album-72157594173657338/){: target="_blank"} - surnommé Wiring Lite. Je pense que Massimo Banzi a conçu celui-ci, mais je ne suis pas sûr.***
 
 <a href="/images/full/ArduinoExtremeV2.jpg" data-lity><img alt="Arduino Extreme v2" src="/images/ArduinoExtremeV2.jpg" width="600px" height="" /></a>
-***[Arduino Extreme v2](https://www.flickr.com/photos/mbanzi/172471940/in/album-72157594173657338/){: target="_blank"} - "Second production version of the Arduino USB boards. This has been properly engineered by Gianluca Martino."***
+***[Arduino Extreme v2](https://www.flickr.com/photos/mbanzi/172471940/in/album-72157594173657338/){: target="_blank"} - "Deuxième version de production des cartes USB Arduino. Il a été conçu par Gianluca Martino."***
 
-Tom Igoe (a faculty member at the ITP at NYU[^2]) was invited by Massimo Banzi to IDII for a workshop and became part of the Arduino Team.
+Tom Igoe (un membre du corps professoral de l'ITP à NYU [^ 2]) a été invité par Massimo Banzi à IDII pour un atelier et est devenu membre de l'équipe Arduino.
 
-To this day, I do not know exactly why the Arduino Team forked the code from Wiring.  It was also puzzling why we didn't work together. So, to answer the question, I was never asked to become a member of the Arduino Team.
+À ce jour, je ne sais pas exactement pourquoi l'équipe Arduino a forké le code de Wiring. C'était assez incompréhensible d'apprendre pourquoi nous n'avions pas travaillé ensemble. Donc, pour répondre à la question, on ne m'a jamais demandé de devenir membre de l'équipe Arduino.
 
-Even though I was perplexed by the Arduino Team forking the code, I continued development on Wiring, and almost all of the improvements that had been made to Wiring, by me and plenty of contributors, were merged into the Arduino source code.  I tried to ignore the fact that they were still taking my work and also wondered about the redundancy and waste of resources in duplicating efforts.
+Même si j'étais perplexe face à l'équipe Arduino qui avait forké le code, j'ai continué le développement sur Wiring, et presque toutes les améliorations qui avaient été apportées à Wiring, par moi et de nombreux contributeurs, ont été fusionnées dans le code source Arduino. J'ai essayé d'ignorer le fait qu'ils prenaient toujours mon travail et je me suis également interrogé sur la redondance et le gaspillage de ressources dans la duplication des efforts.
+
+Fin 2005, j'ai commencé à travailler avec Casey Reas sur un chapitre du livre "[Processing : A Programming Handbook for Visual Artists and Designers](http://www.amazon.com/Processing-Programming-Handbook-Designers -Artistes/dp/0262182629){: target="_blank"}." [Le chapitre](https://processing.org/tutorials/electronics/){: target="_blank"} présente une brève histoire de l'électronique dans l'art. Il comprend des exemples d'interface de Processing avec Wiring et Arduino. J'ai présenté ces exemples sur les deux plates-formes et je me suis assuré que les exemples inclus fonctionnaient à la fois pour Wiring et pour Arduino.
 
 By the end of 2005, I started to work with Casey Reas on a chapter for the book "[Processing: A Programming Handbook for Visual Artists and Designers](http://www.amazon.com/Processing-Programming-Handbook-Designers-Artists/dp/0262182629){: target="_blank"}."  [The chapter](https://processing.org/tutorials/electronics/){: target="_blank"} presents a short history of electronics in the Arts.  It includes examples for interfacing Processing with Wiring and Arduino. I presented those examples in both platforms and made sure the examples included worked for both Wiring and Arduino.
 
