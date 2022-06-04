@@ -350,78 +350,77 @@ Il était impossible de savoir s'il était alimenté ou non (frustrant/dangereux
 
 Dans le but d'aider le projet Programma2003 de Massimo, j'ai également écrit quelque chose que j'ai appelé Programma2003 Interface, qui gère essentiellement toute communication série entre un microcontrôleur et un ordinateur avec le réseau. Cela a élargi la boîte à outils de prototypage à IDII. Il permettait aux étudiants d'utiliser des logiciels comme Adobe Flash (anciennement Macromedia) pour communiquer avec un microcontrôleur.
 
-As a gesture to help Massimo's Programma2003 project, I also wrote something I called Programma2003 Interface, which basically interfaced any serial communication between a microcontroller and a computer with the network. This expanded the prototyping toolbox at IDII. It allowed students to use software like Adobe Flash (formerly Macromedia) to communicate with a microcontroller.
-
 <a href="/images/full/Programma2003InterfaceCode.jpg" data-lity><img alt="Programma2003 Interface Code" src="/images/Programma2003InterfaceCode.jpg" width="" height="400px" /></a>
-***Programma2003 Interface Code***
+***Interface de programmation du Programma2003***
 
 * * *
 
-# Why Hasn't Arduino Acknowledged Wiring Better?
+# Pourquoi Arduino n'a-t-il pas fait plus d'effort pour reconnaître l'influence de Wiring ?
 
-I don't know.
+Je ne sais pas.
 
-The reference to Wiring on the Arduino.cc website, although it has improved slightly over time, is misleading as it tries to attribute Wiring to Programma2003.
+La référence à Wiring sur le site Web Arduino.cc, bien qu'elle se soit légèrement améliorée au fil du temps, est trompeuse car elle tente d'attribuer Wiring à Programma2003.
 
-<a href="/images/full/ArduinoCCCredits-2016-02-23.jpg" data-lity><img alt="Arduino.cc Credits Page Excerpt - 2016-02-23" src="/images/ArduinoCCCredits-2016-02-23.jpg" width="600px" height="" /></a>
-***Arduino.cc website version of Arduino's History from [https://www.arduino.cc/en/Main/Credits](https://www.arduino.cc/en/Main/Credits){: target="_blank"}***
+<a href="/images/full/ArduinoCCCredits-2016-02-23.jpg" data-lity><img alt="Extrait de la pages des remerciements d'Arduino.cc - 2016-02-23" src="/images/ArduinoCCCredits-2016-02-23.jpg" width="600px" height="" /></a>
+***Version de l'histoire d'arduino depuis le site web Arduino.cc [https://www.arduino.cc/en/Main/Credits](https://www.arduino.cc/en/Main/Credits){: target="_blank"}***
 
-Adding to the confusion is this Flickr photo album by Massimo Banzi:
+Cette album photo Flickr de Massimo Banzi à aussi ajouter un peu de confusion:
 
 [https://www.flickr.com/photos/mbanzi/albums/72157633136997919/with/8610131426/](https://www.flickr.com/photos/mbanzi/albums/72157633136997919/with/8610131426/){: target="_blank"}
 
-It is called "Teaching: IDII 2004 Strangely Familiar".  Strangely Familiar was taught with Wiring (see above). This photo album seems to associate the Programma2003 with the class, but it was, in fact, never used.  It is odd that the Wiring boards are absent from the album, however [one Wiring board picture](https://www.flickr.com/photos/mbanzi/8609019055){: target="_blank"} does appear.
+Il s'intitule "Teaching : IDII 2004 Strangely Familiar". Strangely Familiar a été enseigné avec Wiring (voir ci-dessus). Cet album photo semble associer le Programma2003 à la classe, mais il n'a en fait jamais été utilisé. Il est étrange que les cartes Wiring soient absentes de l'album, cependant [une image de la carte Wiring](https://www.flickr.com/photos/mbanzi/8609019055){: target="_blank"} apparaît.
 
-It is no secret that the acknowledgement of Wiring has been very limited in the past. Back in 2013, at [Open Hardware Summit](http://2013.oshwa.org/schedule/){: target="_blank"} at MIT, during the panel "Implications of Open Source Business: Forking and Attribution", David Mellis acknowledges, for the first time, that the Arduino Team hadn't done a very good job acknowledging Wiring.  Unfortunately, he didn't go into details why they hadn't.
-
-* * *
-
-# The Plaintiff vs. The Defendant
-
-I've been quiet about everything that has happened with Arduino for a long time.  But now that people are fraudulently saying that my work is their's, I feel like I need to speak up about the past.
-
-For example, in the ongoing case between Arduino LLC and Arduino S.R.L., [there is a claim](https://www.unitedstatescourts.org/federal/mad/167131/1-0.html){: target="_blank"}, by the Plaintiff, such that:
-
->34\. Banzi is the creator of the Programma2003 Development Platform, a precursor of the many ARDUINO-branded products. See: [http://sourceforge.net/projects/programma2003/](http://sourceforge.net/projects/programma2003/){: target="_blank"}.  Banzi was also the Master's Thesis advisor of Hernando Barragan whose work would result in the Wiring Development Platform which inspired Arduino.
-
-Here is what, in my opinion, is wrong with that claim:
-
-1.  The Programma2003 was not a Development Platform, it was simply a board.  There was no software developed by the Plaintiff to accompany that board.
-2.  The link is empty, there are no files in that Sourceforge repository, so why present an empty repository as evidence?
-3.  The idea that the mere fact that Banzi was my thesis advisor gives him some sort of higher claim to the work done on Wiring, is, to say the least, frustrating to read.
-
-Further on:
-
->39\. The Founders, assisted by Nicholas Zambetti, another student at IDII, undertook and developed a project in which they designed a platform and environment for microcontroller boards ("Boards") to replace the Wiring Development Project. Banzi gave the project its name, the ARDUINO project.
-
-Here are the questions I'd ask "The Founders:"
-
-*   Why did the "Wiring Development Project" need to be replaced?
-*   Did you ask the developer if he would work with you?
-*   Did you not like the original name? (Banzi gave the project its name, after all)
-
-I know it might be done now and again, but, in my opinion, it is unethical and a bad example for academics to do something like this with the work of a student.  Educators, more than anybody else, should avoid taking advantage of their student's work.  In a way, I still feel violated by "The Founders" for calling my work their's.
-
-It may be legal to take an open source software and hardware project's model, philosophy, discourse, and the thousands of hours of work by its author, exert a branding exercise on it, and release it to the world as something "new" or "inspired", but... is it right?
+Ce n'est un secret pour personne que la reconnaissance de Wiring a été très limitée dans le passé. En 2013, au [Open Hardware Summit](http://2013.oshwa.org/schedule/){: target="_blank"} au MIT, lors du panel "Implications of Open Source Business : Forking and Attribution", David Mellis reconnaît, pour la première fois, que l'équipe Arduino n'a pas fait un très bon travail pour attribuer  l'utilisation de Wiring. Malheureusement, il n'a pas expliqué en détail pourquoi ils ne l'avaient pas fait.
 
 * * *
 
-# Continuous Misleading Information
+# Le demandeur contre le défendeur
 
-Someone once said:
+J'ai été silencieux sur tout ce qui s'est passé avec Arduino pendant longtemps. Mais maintenant que des gens s'attribuent frauduleusement mon travail, j'ai senti que je devais parler du passé.
 
->"If we don't make things ultra clear, people draw their own conclusions and they become facts even if we never said anything like that."[^4]
+Par exemple, dans l'affaire en cours entre Arduino LLC et Arduino S.R.L., [il y a une réclamation](https://www.unitedstatescourts.org/federal/mad/167131/1-0.html){ : target="_blank" }, par le demandeur, ayant pour but d'affimer que :
 
-It seems to me that this is universally true, and especially if you mislead people with only slight alterations of the truth, you can have control over their conclusions.
+>34\. Banzi est le créateur de la plate-forme de développement Programma2003, un précurseur des nombreux produits de marque ARDUINO. Voir : [http://sourceforge.net/projects/programma2003/](http://sourceforge.net/projects/programma2003/){: target="_blank"}. Banzi était également le directeur de thèse de maîtrise d'Hernando Barragan dont les travaux aboutiront à la plate-forme de développement Wiring qui a inspiré Arduino.
 
-Here are a couple of mainstream examples of misleading information.
+Voici ce qui, à mon avis, est faux avec cette affirmation :
 
-## The Infamous Diagram
+1. Programma2003 n'était pas une plate-forme de développement, c'était simplement un carte. Aucun logiciel n'a été développé par le demandeur pour gérer cette carte.
+2. Le lien est vide, il n'y a pas de fichiers dans ce repository Sourceforge, alors pourquoi présenter un repository vide comme preuve ?
+3. L'idée que le simple fait que Banzi ait été mon directeur de thèse lui confère une sorte de prétention supérieure au travail effectué sur Wiring est, pour le moins, frustrante à lire.
 
-<a href="/images/full/InteractionIvreaDiagram.jpg" data-lity><img alt="Interaction Ivrea (Weird) Diagram" src="/images/InteractionIvreaDiagram.jpg" width="600px" height="" /></a>
+De plus:
+
+>39\. Les fondateurs, assistés de Nicholas Zambetti, un autre étudiant à l'IDII, ont entrepris et développé un projet dans lequel ils ont conçu une plate-forme et un environnement pour les cartes de microcontrôleur ("Boards") pour remplacer le projet de développement de Wiring. Banzi a donné son nom au projet, le projet ARDUINO.
+
+Voici les questions que je poserais "aux fondateurs :"
+* Pourquoi le "projet de développement de Wiring" a-t-il dû être remplacé ?
+* Avez-vous demandé au développeur s'il accepterait de travailler avec vous ?
+* N'avez-vous pas aimé le nom d'origine ? (Banzi a donné son nom au projet, après tout)
+
+Je sais que cela peut être fait de temps en temps, mais, à mon avis, c'est contraire à l'éthique et un mauvais exemple pour les universitaires de faire quelque chose comme ça avec le travail d'un étudiant. Les éducateurs, plus que quiconque, devraient éviter de profiter du travail de leurs élèves. D'une certaine manière, je me sens toujours lésé par "Les fondateurs" pour avoir appelé mon travail le leur.
+
+Il peut être légal de prendre le modèle, la philosophie, le discours et les milliers d'heures de travail d'un logiciel open source et d'un projet hardware par son auteur, de forcer l'exercice de promotion d'une marque dessus et de le diffuser au monde comme quelque chose de "nouveau" ou "d'inspiré par", mais... est-ce bien ?
+
+* * *
+
+# Un flux continue d'informations trompeuses
+
+Quelqu'un a dit un jour :
+
+>"Si nous ne mettons pas les choses bien aux claires, les gens tirent leurs propres conclusions et elles deviennent des faits même si nous n'avons jamais rien dit de tel."[^4]
+
+Il me semble que cela est universellement vrai, et surtout si vous induisez en erreur les gens avec seulement de légères altérations de la vérité, vous pouvez avoir un contrôle sur leurs conclusions.
+
+Voici quelques exemples courants d'informations trompeuses.
+
+## Le tristement célèbre diagramme
+
+<a href="/images/full/InteractionIvreaDiagram.jpg" data-lity><img alt="Diagramme d'Interaction Ivrea (Bizzare)" src="/images/InteractionIvreaDiagram.jpg" width="600px" height="" /></a>
 ***[http://blog.experientia.com/uploads/2013/10/Interaction_Ivrea_arduino.pdf](http://blog.experientia.com/uploads/2013/10/Interaction_Ivrea_arduino.pdf){: target="_blank"}***
 
-This diagram was produced to tell the story of the prototyping tools developed at IDII. It was beautifully done by Giorgio Olivero, using the content provided by the school in 2005, and released in 2006.
+Ce diagramme a été produit pour raconter l'histoire des outils de prototypage développés à l'IDII. Il a été magnifiquement réalisé par Giorgio Olivero, en utilisant le contenu fourni par l'école en 2005, et publié en 2006.
+
+Les projets présentés dans les blobs rouges, bien qu'ils aient été réalisés avec Wiring, semblent être associés à Arduino à une époque * où Arduino n'existait même pas *, ni même  d'être prêt à les faire.
 
 The projects presented in the red blobs, although they were made with Wiring, appear to be associated with Arduino at a time *when Arduino didn't even exist*, nor was even close to being ready to do them.
 
