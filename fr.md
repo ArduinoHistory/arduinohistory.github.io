@@ -98,7 +98,7 @@ Le premier prototype de Wiring utilisait le microcontrôleur [Parallax](https://
 Problème : comme décrit dans le document de thèse à la page 40, la compilation, le linking et le téléversement des programmes de l'utilisateur reposaient sur les outils propriétaires de Parallax. Étant donné que Wiring était prévu pour être un logiciel open source, le Javelin Stamp n'était tout simplement pas une option viable.
 
 <a href="/images/full/WiringPrototype1-JavelinStamp.jpg" data-lity><img alt="Wiring Prototype 1 - Javelin Stamp" src="/images/WiringPrototype1-JavelinStamp.jpg" width="600px" height="" /></a>
-******Photo du Javelin Stamp utilisé pour le premier prototype du Hardware pour Wiring.***
+***Photo du Javelin Stamp utilisé pour le premier prototype du Hardware pour Wiring.***
 
 Pour les prototypes suivants, les microcontrôleurs ont été choisis en fonction de la disponibilité d'outils open source pour compiler, linker et téléverser le code de l'utilisateur. Cela a conduit à abandonner très tôt la très populaire famille de microcontrôleurs Microchip PIC, car, à l'époque (vers 2003), Microchip ne disposait pas d'une toolchain open source.
 
@@ -287,68 +287,68 @@ Tom Igoe (un membre du corps professoral de l'ITP à NYU [^ 2]) a été invité 
 
 Même si j'étais perplexe face à l'équipe Arduino qui avait forké le code, j'ai continué le développement sur Wiring, et presque toutes les améliorations qui avaient été apportées à Wiring, par moi et de nombreux contributeurs, ont été fusionnées dans le code source Arduino. J'ai essayé d'ignorer le fait qu'ils prenaient toujours mon travail et je me suis également interrogé sur la redondance et le gaspillage de ressources dans la duplication des efforts.
 
-Fin 2005, j'ai commencé à travailler avec Casey Reas sur un chapitre du livre "[Processing : A Programming Handbook for Visual Artists and Designers](http://www.amazon.com/Processing-Programming-Handbook-Designers -Artistes/dp/0262182629){: target="_blank"}." [Le chapitre](https://processing.org/tutorials/electronics/){: target="_blank"} présente une brève histoire de l'électronique dans l'art. Il comprend des exemples d'interface de Processing avec Wiring et Arduino. J'ai présenté ces exemples sur les deux plates-formes et je me suis assuré que les exemples inclus fonctionnaient à la fois pour Wiring et pour Arduino.
+Fin 2005, j'ai commencé à travailler avec Casey Reas sur un chapitre du livre "[Processing : A Programming Handbook for Visual Artists and Designers](http://www.amazon.com/Processing-Programming-Handbook-Designers -Artistes/dp/0262182629){: target="_blank"}." [Le chapitre](https://processing.org/tutorials/electronics/){: target="_blank"} présente une brève histoire de l'électronique dans l'art. Il comprend des exemples d'interfacage entre Processing et Wiring ou Arduino. J'ai présenté ces exemples sur les deux plates-formes et je me suis assuré que les exemples inclus fonctionnaient à la fois pour Wiring et pour Arduino.
 
-By the end of 2005, I started to work with Casey Reas on a chapter for the book "[Processing: A Programming Handbook for Visual Artists and Designers](http://www.amazon.com/Processing-Programming-Handbook-Designers-Artists/dp/0262182629){: target="_blank"}."  [The chapter](https://processing.org/tutorials/electronics/){: target="_blank"} presents a short history of electronics in the Arts.  It includes examples for interfacing Processing with Wiring and Arduino. I presented those examples in both platforms and made sure the examples included worked for both Wiring and Arduino.
-
-The book got a second edition in 2013 and the chapter was revised again by Casey and me, and [the extension](https://processing.org/tutorials/electronics/){: target="_blank"} has been made available online since 2014.
+Le livre a eu une deuxième édition en 2013 et le chapitre a été relu à nouveau par Casey et moi, et [l'extension](https://processing.org/tutorials/electronics/){: target="_blank"} a été mis en ligne depuis 2014.
 
 * * *
 
-# Did The Arduino Team Work with Wiring Before Arduino?
+# L'équipe Arduino travaillait-elle avec Wiring avant Arduino ?
 
-Yes, each of them had experience with Wiring before creating Arduino.
+Oui, chacun d'eux été formé à l'usage de Wiring avant de créer Arduino.
 
-Massimo Banzi taught with Wiring at IDII from 2004.
+Massimo Banzi a appris l'utilisation de Wiring à IDII depuis 2004.
 
-<a href="/images/full/WiringBoardsWithMassimo.jpg" data-lity><img alt="Massimo Banzi Teaching with Wiring" src="/images/WiringBoardsWithMassimo.jpg" width="600px" height="" /></a>
-***Massimo Banzi teaching interaction design at IDII with Wiring boards in 2004.***
+<a href="/images/full/WiringBoardsWithMassimo.jpg" data-lity><img alt="Massimo Banzi apprends l'utilisation de Wiring" src="/images/WiringBoardsWithMassimo.jpg" width="600px" height="" /></a>
+***Massimo Banzi donne un cours sur la conception interactive à IDII avec les cartes Wiring en 2004.***
 
-David Mellis was a student at IDII from 2004 to 2005.
+David Mellis était un étudiant à IDII entre 2004 et 2005.
 
-<a href="/images/full/DavidMellisAtIDII.jpg" data-lity><img alt="David Mellis at IDII" src="/images/DavidMellisAtIDII.jpg" width="600px" height="" /></a>
-***A blurry version of David Mellis learning physical computing with Wiring in 2004.***
+<a href="/images/full/DavidMellisAtIDII.jpg" data-lity><img alt="David Mellis à IDII" src="/images/DavidMellisAtIDII.jpg" width="600px" height="" /></a>
+***David Mellis flouté qui apprends le physical computing avec Wiring en 2004.***
 
-In January 2005, IDII hired David Cuartielles to develop a couple of plug-in boards for the Wiring board, for motor control and bluetooth connectivity.
+En Janvier 2005, IDII a embauché David Cuartielles pour développer quelques cartes d'extensions pour la carte Wiring, afin d'ajouter le contrôle de moteur et la connectivité Bluetooth.
 
 <div>
 <span style="overflow: hidden; display: inline-block;">
-<a href="/images/full/WiringBluetoothPlugin.jpg" data-lity><img alt="Wiring Bluetooth Plugin" src="/images/WiringBluetoothPlugin.jpg" width="300px" height="" /></a></span>
+<a href="/images/full/WiringBluetoothPlugin.jpg" data-lity><img alt="Carte d'extension Bluetooth pour Wiring" src="/images/WiringBluetoothPlugin.jpg" width="300px" height="" /></a></span>
 <span style="overflow: hidden; display: inline-block;">
-<a href="/images/full/WiringMotorControllerPlugin.jpg" data-lity><img alt="Wiring Motor Controller Plugin" src="/images/WiringMotorControllerPlugin.jpg" width="300px" height="" /></a></span>
+<a href="/images/full/WiringMotorControllerPlugin.jpg" data-lity><img alt="Carte d'extension moteur pour Wiring" src="/images/WiringMotorControllerPlugin.jpg" width="300px" height="" /></a></span>
 </div>
-***Two plug-in boards developed at IDII by David Cuartielles and his brother. Bluetooth shield on the left, and a motor controller shield on the right.***
+***Deux cartes d'extensions développées à l'IDII par David Cuartielles et son frère. Un shieldr Bluetooth à gauche et un shield de contrôleur de moteur à droite***
 
-I showed early versions of Wiring to Tom Igoe during a visit to ITP in New York in 2003\. At the time, he had no experience with Atmel hardware, as Tom was using PIC microcontrollers at ITP as an alternative to the costly platforms like Parallax Basic Stamp or Basic X. One of Tom's recommendations at this visit was: "well, do it for PIC, because this is what we use here."
+J'ai montré les premières versions de Wiring à Tom Igoe lors d'une visite à l'ITP à New York en 2003\. À l'époque, il n'avait aucune expérience avec le matériel d'Atmel, car Tom utilisait des microcontrôleurs PIC chez ITP comme alternative aux plates-formes coûteuses comme Parallax Basic Stamp ou Basic X. L'une des recommandations de Tom lors de cette visite était : "eh bien, faites-le pour PIC, parce que c'est ce que nous utilisons ici."
 
-Years later, in 2007, Tom Igoe released the first edition of the "Making Things Talk" book published by O'Reilly[^3], which presents the use of both Wiring and Arduino.
+Des années plus tard, en 2007, Tom Igoe a publié la première édition du livre "Making Things Talk" publié par O'Reilly[^3], qui présente l'utilisation de Wiring et d'Arduino.
 
-Gianluca Martino originally worked for SERP (the factory that made the first 25 Wiring circuit boards) and later he founded Smart Projects SRL (April 1st, 2004).  Smart Projects made the first batch of 100 Wiring boards for IDII to teach physical computing in 2004.
+Gianluca Martino a d'abord travaillé pour SERP (l'usine qui a fabriqué les 25 premières cartes Wiring) et plus tard, il a fondé Smart Projects SRL (1er avril 2004). Smart Projects a fabriqué le premier lot de 100 cartes Wiring pour IDII pour enseigner le physycal computing en 2004.
 
 * * *
 
-# What is Programma2003 and How is it Related to You or to Wiring?
+# Qu'est-ce que Programma2003 et comment est-il lié à vous ou à Wiring ?
 
-Programma2003 was a [Microchip](http://www.microchip.com/){: target="_blank"} PIC microcontroller board developed by Massimo Banzi in 2003\. After using BasicX to teach Physical computing in the winter of 2002, Massimo decided to do a board using the PIC chip in 2003\. The problem with the PIC microcontrollers was that there wasn't an open source toolchain available at the time, to use a language like C to program them.
+Programma2003 était une carte microcontrôleur PIC de chez [Microchip](http://www.microchip.com/){: target="_blank"} développée par Massimo Banzi en 2003\. Après avoir utilisé BasicX pour enseigner le physical computing à l'hiver 2002, Massimo a décidé de faire une carte utilisant la puce PIC en 2003\. Le problème avec les microcontrôleurs PIC était qu'il n'y avait pas de toolchains open source disponible à l'époque, pour utiliser un langage de type C pour les programmer.
 
 <a href="/images/full/Programma2003.jpg" data-lity><img alt="Programma2003" src="/images/Programma2003.jpg" width="600px" height="" /></a>
-***[Programma2003](https://www.flickr.com/photos/mbanzi/8610131426/in/album-72157633136997919/){: target="_blank"} board designed by Massimo Banzi in 2003***
+***[Programma2003](https://www.flickr.com/photos/mbanzi/8610131426/in/album-72157633136997919/){: target="_blank"} carte conçue par Massimo Banzi en 2003***
 
-Because of the lack of an open source toolchain, Massimo decided to use an environment called [JAL](http://justanotherlanguage.org/){: target="_blank"} (Just Another Language) to program the PIC microcontroller.  JAL was created by Wouter van Ooijen.
+En raison de l'absence d'une toolchains open source, Massimo a décidé d'utiliser un environnement appelé [JAL](http://justanotherlanguage.org/){: target="_blank"} (Just Another Language) pour programmer le microcontrôleur PIC. JAL a été créé par Wouter van Ooijen.
 
-It consisted of the JAL compiler, linker, uploader, bootloader and examples for the PIC.  However, the software would only run on Windows.
+Il se composait du compilateur JAL, du linker, uploader, bootloader, et d'exemples pour le PIC. Cependant, le logiciel ne fonctionnerait que sur Windows.
 
-To make JAL easier to use, Massimo used the base examples from JAL and simplified some of them for the distribution package for IDII.
+Pour faciliter l'utilisation de JAL, Massimo a utilisé les exemples de base de JAL et en a simplifié certains pour le package de distribution pour IDII.
 
-However, in 2003, most students at IDII used Mac computers. So I volunteered to help Massimo by making a small and simple environment for Mac OS X so students with a Mac could use it as well.
+Cependant, en 2003, la plupart des étudiants de l'IDII utilisaient des ordinateurs Mac. Je me suis donc porté volontaire pour aider Massimo en créant un environnement léger et simple pour Mac OS X afin que les étudiants possédant un Mac puissent également l'utiliser.
 
-In my thesis document, I characterized Programma2003 as a non-viable model to follow, since other more comprehensive tools were already available in the market. The main problems were:
+Dans ma thèse, j'ai qualifié Programma2003 de modèle non viable à suivre, car d'autres outils plus complets étaient déjà disponibles sur le marché. Les principaux problèmes étaient :
 
-*   the language is far from useful in any other context (e.g. you can't program your computer using JAL)
-*   it's arcane syntax and the hardware design made it highly unlikely to go somewhere in the future for teaching and learning
-*   the board didn't have a power LED (a design flaw)
+* le langage est loin d'être utile dans tout autre contexte (par exemple, vous ne pouvez pas programmer votre ordinateur en utilisant JAL)
+* c'est une syntaxe obscure et la conception du matériel rendait très peu probable qu'il soit utilisé dans le futur pour l'enseignement et l'apprentissage
+* la carte n'avait pas de LED d'alimentation (un défaut de conception)
 
-It was impossible to know if it was powered or not (frustrating/dangerous in a learning environment) and an additional RS232 to USB expensive converter was required to connect it to a computer.
+Il était impossible de savoir s'il était alimenté ou non (frustrant/dangereux dans un environnement d'apprentissage) et un convertisseur coûteux RS232 vers USB supplémentaire était nécessaire pour le connecter à un ordinateur.
+
+Dans le but d'aider le projet Programma2003 de Massimo, j'ai également écrit quelque chose que j'ai appelé Programma2003 Interface, qui gère essentiellement toute communication série entre un microcontrôleur et un ordinateur avec le réseau. Cela a élargi la boîte à outils de prototypage à IDII. Il permettait aux étudiants d'utiliser des logiciels comme Adobe Flash (anciennement Macromedia) pour communiquer avec un microcontrôleur.
 
 As a gesture to help Massimo's Programma2003 project, I also wrote something I called Programma2003 Interface, which basically interfaced any serial communication between a microcontroller and a computer with the network. This expanded the prototyping toolbox at IDII. It allowed students to use software like Adobe Flash (formerly Macromedia) to communicate with a microcontroller.
 
