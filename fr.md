@@ -515,49 +515,49 @@ Il n'a jamais été fermé.
 
 ### Circuits Today
 
-[A 2014 article from Circuits Today](http://www.circuitstoday.com/story-and-history-of-development-of-arduino){: target="_blank"} has a very confusing opening:
+[Un article de 2014 de Circuits Today](http://www.circuitstoday.com/story-and-history-of-development-of-arduino){: target="_blank"} a une ouverture très déroutante :
 
->It was in the Interactive Design Institute [sic] that a hardware thesis was contributed for a wiring design by a Colombian student named Hernando Barragan. The title of the thesis was "Arduino–La rivoluzione dell'open hardware" ("Arduino – The Revolution of Open Hardware"). Yes, it sounded a little different from the usual thesis but none would have imagined that it would carve a niche in the field of electronics.
+> C'est à l'Interactive Design Institute [sic] qu'une thèse sur le hardware a été rédigée pour la conception de Wiring par un étudiant colombien nommé Hernando Barragan. Le titre de la thèse était "Arduino – La rivoluzione dell'open hardware" ("Arduino - La révolution de l'open hardware"). Oui, cela sonnait un peu différent des thèses habituelles, mais personne n'aurait imaginé qu'elle se taillerait une place dans le domaine de l'électronique.
 
->A team of five developers worked on this thesis and when the new wiring platform was complete, they worked to make it much lighter, less expensive, and available to the open source community.
+>Une équipe de cinq développeurs a travaillé sur cette thèse et lorsque la nouvelle plate-forme de Wiring a été terminée, ils ont travaillé pour la rendre beaucoup plus légère, moins chère et disponible pour la communauté open source.
 
-The title of my thesis is obviously wrong.  There weren't five "developers" working on the thesis.  And the code was always open source.
+Le titre de ma thèse est évidemment faux. Il n'y avait pas cinq "développeurs" travaillant sur la thèse. Et le code était toujours open source.
 
-Again, I wasn't contacted for reference.
+Encore une fois, je n'ai pas été consulté.
 
 
 ### Makezine
 
-In [a 2013 interview by Dale Dougherty with Massimo Banzi](http://makezine.com/2013/01/29/good-design-gets-out-of-the-way/){: target="_blank"}, once again the story changes:
+Dans [une interview de 2013 de Dale Dougherty avec Massimo Banzi](http://makezine.com/2013/01/29/good-design-gets-out-of-the-way/){: target="_blank"} , encore une fois l'histoire change :
 
->Wiring had an expensive board, about $100, because it used an expensive chip.  I didn't like that, and the student developer and I disagreed.
+> Wiring avait une carte coûteuse, environ 100 $, car il utilisait une puce coûteuse. Je n'aimais pas ça, et le développeur étudiant et moi n'étions pas d'accord.
 
-In this version of the story by Massimo Banzi, Arduino originated from Wiring, but it is implied that I was insistent on having an expensive board.
+Dans cette version de l'histoire de Massimo Banzi, Arduino est issu de Wiring, mais il est sous-entendu que j'ai insisté pour avoir une carte à un prix elevée.
 
-Regarding the "disagreement": I never had a discussion with Massimo Banzi about the board being too expensive. I wish that he and I would have had more discussions on such matters, as I had with other advisors and colleagues, as I find it very enriching. The closest thing to a disagreement took place after a successful thesis presentation event, where Massimo showed some odd behaviour towards me. Because he was my advisor, I was at a disadvantage, but I asked Massimo why he was behaving badly towards me, to which I received no answer.  I felt threatened, and it was very awkward.
+Concernant le "désaccord": je n'ai jamais eu de discussion avec Massimo Banzi sur le fait que la carte était trop chère. J'aurais aimé que lui et moi ayons eu plus de discussions sur ces questions, comme j'en ai eu avec d'autres conseillers et collègues, car je trouve cela très enrichissant. La chose la plus proche d'un désaccord a eu lieu après un présentation de thèse réussi, où Massimo a montré un comportement étrange envers moi. Parce qu'il était mon conseiller, j'étais désavantagé, mais j'ai demandé à Massimo pourquoi il se comportait mal envers moi, ce à quoi je n'ai reçu aucune réponse. Je me sentais menacé et c'était très gênant.
 
-His odd behaviour extended to those who collaborated with me on Wiring later on.
+Son comportement étrange s'est étendu à ceux qui ont collaboré avec moi sur Wiring plus tard.
 
->I decided that we could make an open source version of Wiring, starting from scratch. I asked Gianluca Martino [now one of the five Arduino partners] to help me manufacture the first prototypes, the first boards.
+>J'ai décidé que nous pouvions faire une version open source de Wiring, en partant de zéro. J'ai demandé à Gianluca Martino [maintenant l'un des cinq partenaires Arduino] de m'aider à fabriquer les premiers prototypes, les premières cartes.
 
-Here, Massimo is again implying that Wiring wasn't open source, which it was.  And also that they would build the software from "scratch", which they didn't.
+Ici, Massimo implique à nouveau que Wiring n'était pas open source, alors que c'était le cas. Et aussi qu'ils construiraient le logiciel à partir de "zéro", ce qu'ils n'ont pas fait.
 
-## Academic Mistakes
+## Erreurs académiques
 
-I understand how easy it is to engage people with good storytelling and compelling tales, but academics are expected to do their homework, and at least check the facts behind unsubstantiated statements.
+Je comprends à quel point il est facile d'attirer l'attention des gens avec une bonne narration et des histoires convaincantes, mais les universitaires sont censés faire leurs devoirs et au moins vérifier les faits derrière des déclarations non fondées.
 
-In this book, Making Futures: Marginal Notes on Innovation, Design, and Democracy Hardcover – October 31, 2014 by Pelle Ehn (Editor), Elisabet M. Nilsson (Editor), Richard Topgaard (Editor):
+Dans ce livre, Making Futures: Marginal Notes on Innovation, Design, and Democracy (Anglais) Relié – 31 octobre 2014 par Pelle Ehn (Editeur), Elisabet M. Nilsson (Editeur), Richard Topgaard (Editeur) :
 
-[Chapter 8: How Deep is Your Love? On Open-Source Hardware](http://dspace.mah.se/bitstream/handle/2043/17985/MAKING-FUTURES-EHN-ET-AL-2014-CHAPTER-08.pdf?sequence=19&isAllowed=y){: target="_blank"} (David Cuartielles)
+[Chapitre 8 : Quelle est la profondeur de votre amour ? Sur le Hardware Open Source] (http://dspace.mah.se/bitstream/handle/2043/17985/MAKING-FUTURES-EHN-ET-AL-2014-CHAPTER-08.pdf?sequence=19&isAllowed=y){ : target="_blank"} (David Cuartielles)
 
->In 2005, at the Interaction Design Institute Ivrea, we had the vision that making a small prototyping platform aimed at designers would help them getting a better understanding of technology.
+>En 2005, à l'Interaction Design Institute d'Ivrea, nous avons pensé que la réalisation d'une petite plate-forme de prototypage destinée aux designers les aiderait à mieux comprendre la technologie.
 
-David Cuartielles' version of Arduino's history doesn't even include Wiring.
+La version de David Cuartielles de l'histoire de l'Arduino n'inclut même pas Wiring.
 
-This book has been released chapter by chapter under Creative Commons: [http://dspace.mah.se/handle/2043/17985](http://dspace.mah.se/handle/2043/17985){: target="_blank"}
+Ce livre a été publié chapitre par chapitre sous Creative Commons : [http://dspace.mah.se/handle/2043/17985](http://dspace.mah.se/handle/2043/17985){: target= "_Vide"}
 
 
-# More Links for Your Perusal
+# Plus de liens pour votre lecture
 
 Wiring as predecessor to Arduino:
 
@@ -571,11 +571,11 @@ Safari Books Online, Casey Reas, Getting Started with Processing, Chapter One, F
 
 * [https://www.safaribooksonline.com/library/view/getting-started-with/9781449379827/ch01.html](https://www.safaribooksonline.com/library/view/getting-started-with/9781449379827/ch01.html){: target="_blank"}
 
-Nicholas Zambetti Arduino Project Page:
+Page du projet Arduino de Nicholas Zambetti:
 
 * [http://www.zambetti.com/projects/arduino/](http://www.zambetti.com/projects/arduino/){: target="_blank"}
 
-(Nicholas did a lot of work with both Wiring and Arduino)
+(Nicholas a beaucoup travaillé sur Wiring et Arduino)
 
 ## Articles About Arduino vs. Arduino
 
@@ -605,21 +605,21 @@ Massimo going to Ted Talk -- candid (2012-08-06)
 
 [https://www.youtube.com/watch?v=tZxY8_CNiCw](https://www.youtube.com/watch?v=tZxY8_CNiCw){: target="_blank"}
 
-This is a candid view of Massimo just before performing at a TED Talk.  You can make your own mind up about the majority of the video, however, the most interesting comment, in my opinion, is <a href="https://youtu.be/tZxY8_CNiCw?start=232" data-lity>at the end</a>, where he says:
+Ceci est une vue candide de Massimo juste avant de se produire lors d'une conférence TED. Vous pouvez vous faire votre propre opinion sur la majorité de la vidéo, cependant, le commentaire le plus intéressant, à mon avis, est <a href="https://youtu.be/tZxY8_CNiCw?start=232" data-lity>sur la fin</a>, où il dit :
 
->... Innovation without asking for permission. So, in a way, Open Source allows you to be innovative without asking for permission.
+>... Innover sans demander d'autorisation. Ainsi, d'une certaine manière, l'Open Source vous permet d'être innovant sans demander la permission.
 
 * * *
 
-# Thank You!
+# Merci!
 
-Thank you for taking time to read this.  I think it is very important, not just in the academic world, to properly acknowledge the origin of things.  As I learned from fantastic educators, doing this properly not only enriches your work, but also positions it better to allow others to investigate and see where your ideas come from.  Maybe they will find other alternatives or improve what was done and better position their own ideas.
+Merci d'avoir pris le temps de lire ceci. Je pense qu'il est très important, pas seulement dans le monde académique, de bien reconnaître l'origine des choses. Comme j'ai appris d'éducateurs fantastiques, faire cela correctement non seulement enrichit votre travail, mais le positionne également mieux pour permettre aux autres d'enquêter et de voir d'où viennent vos idées. Peut-être trouveront-ils d'autres alternatives ou amélioreront-ils ce qui a été fait et positionneront-ils mieux leurs propres idées.
 
-Personally, watching the outreach of what I created back in 2003 in so many different contexts, seeing those commands bringing to life people's ideas and creations from all over the world, has brought me so many satisfactions, surprises, new questions, ideas, awareness and friendships. I am thankful for that.
+Personnellement, regarder la portée de ce que j'ai créé en 2003 dans tant de contextes différents, voir ces commandes donner vie aux idées et aux créations des gens du monde entier, m'a apporté tant de satisfactions, de surprises, de nouvelles questions, des idées, une prise de conscience et amitiés. Je suis reconnaissant pour cela.
 
-I think it is important to know the past to avoid making the same mistakes in the future.  Sometimes I wish I would have had a chance to talk about this differently, for a different motif. Instead, many times I have come across journalists and common people compromised in their independence. Either they had direct business with Arduino, or simply wanted to avoid upsetting Massimo Banzi. Or there are the close-minded individuals following a cause and refusing to see or hear anything different from what they believe. And then there are the individuals who are just part of the crowd that reproduce what they are told to reproduce. For those others, this document is  an invitation to trust your curiosity, to question, to dig deeper in whatever interests you and is important to you as an individual or as a member of a community.
+Je pense qu'il est important de connaître le passé pour éviter de refaire les mêmes erreurs à l'avenir. Parfois, j'aurais aimé avoir la chance d'en parler différemment, pour un motif différent. Au lieu de cela, j'ai souvent rencontré des journalistes et des gens ordinaires compromis dans leur indépendance. Soit ils avaient des affaires directes avec Arduino, soit ils voulaient simplement éviter de contrarier Massimo Banzi. Ou il y a les individus fermés d'esprit qui suivent une cause et refusent de voir ou d'entendre quoi que ce soit de différent de ce qu'ils croient. Et puis il y a les individus qui font partie de la foule qui reproduisent ce qu'on leur dit de reproduire. Pour les autres, ce document est une invitation à faire confiance à votre curiosité, à vous questionner, à approfondir ce qui vous intéresse et vous tient à cœur en tant qu'individu ou membre d'une communauté.
 
-I'll see you soon,
+A la procahine,
 
 Hernando.
 
@@ -633,7 +633,7 @@ Hernando.
 
 * * *
 
-[^1]: The notion of a "Sketch" within the context of writing programs comes from Processing and previously from [Design by Numbers](http://www.maedastudio.com/1999/dbn/index.php){: target="_blank"} (DBN). It was extended by Wiring within the context of prototyping with electronics or "sketching" with hardware.
+[^1]: La notion de "Croquis" dans le contexte de l'écriture des programmes vient de Processing et auparavant de [Design by Numbers](http://www.maedastudio.com/1999/dbn/index.php){: target="_blank" } (DBN). Elle a été prolongée par Wiring dans le cadre du prototypage avec l'électronique ou du "sketching" avec le hardware.
 
 [^2]: Interactive Telecommunications Program at New York University
 
