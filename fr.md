@@ -420,100 +420,98 @@ Voici quelques exemples courants d'informations trompeuses.
 
 Ce diagramme a été produit pour raconter l'histoire des outils de prototypage développés à l'IDII. Il a été magnifiquement réalisé par Giorgio Olivero, en utilisant le contenu fourni par l'école en 2005, et publié en 2006.
 
-Les projets présentés dans les blobs rouges, bien qu'ils aient été réalisés avec Wiring, semblent être associés à Arduino à une époque * où Arduino n'existait même pas *, ni même  d'être prêt à les faire.
+Les projets présentés dans les blobs rouges, bien qu'ils aient été réalisés avec Wiring, semblent être associés à Arduino à une époque * où Arduino n'existait même pas *, ni même près d'être prêt à les faire.
 
-The projects presented in the red blobs, although they were made with Wiring, appear to be associated with Arduino at a time *when Arduino didn't even exist*, nor was even close to being ready to do them.
+Certains des auteurs des projets ont posés des questions sur cette erreur et pourquoi leurs projets ont été présenté comme étant fait avec Arduino, mais ils n'ont reçu aucune réponse.
 
-Some of the authors of the projects inquired about the mistake, and why their projects were shifted to Arduino, but received no response.
-
-Despite the fact that nothing was changed in this highly public document, I have to thank the support of the students who pointed it out and inquired about it.
+Malgré le fait que rien n'a été changé dans ce document hautement public, je dois remercier le soutien des étudiants qui l'ont signalé et se sont renseignés à ce sujet.
 
 ## The Arduino Documentary
 
-Another very public piece of media from 2010 was [The Arduino Documentary](https://vimeo.com/18539129){: target="_blank"} (written and directed by Raúl Alaejos, Rodrigo Calvo).
+Un autre média très public de 2010 était [The Arduino Documentary](https://vimeo.com/18539129){: target="_blank"} (écrit et réalisé par Raúl Alaejos, Rodrigo Calvo).
 
-This one is very interesting, especially seeing it today in 2016\. I think the idea of doing a documentary is very good, especially for a project with such a rich history.
+Celui-ci est très intéressant, surtout vu récemment en 2016\. Je pense que l'idée de faire un documentaire est très bonne, surtout pour un projet avec une histoire aussi riche.
 
-Here are some parts that present some interesting contradictions:
+Voici quelques parties qui présentent des contradictions intéressantes :
 
-<a href="http://vimeo.com/18539129?#t=1m45s" data-lity>1:45</a> - "We wanted it to be open source so that everybody could come and help, and contribute."  It is suggested here that Wiring was closed source.  Because part of Wiring was based on Processing, and Processing was GPL open source, as well as all the libraries, Wiring, and hence Arduino, had to be open source.  It was not an option to have it be closed source.  Also, the insinuation that they made the software easier is misleading, since nothing changed in the language, which is the essence of the project's simplicity.
+<a href="http://vimeo.com/18539129?#t=1m45s" data-lity>1:45</a> - 
+"Nous voulions qu'il soit open source afin que tout le monde puisse aider et contribuer." Il est suggéré ici que Wiring était closed-source. Vu qu'une partie de Wiring était basée sur Processing, et que Processing était sous licence open source GPL, ainsi que toutes les bibliothèques, Wiring, et donc Arduino, devaient être open source. Ce n'était pas possible que le logiciel soit propriétaire. De plus, l'insinuation qu'ils rendu le logiciel plus facile trompeuse, puisque rien n'a changé dans le langage, qui est l'essence même de la simplicité du projet.
 
-<a href="http://vimeo.com/18539129?#t=3m20s" data-lity>3:20</a> - David Cuartielles already knew about Wiring, as he was hired to design two plug-in boards for it by IDII in 2005 as pointed out earlier in this document. David Mellis learned physical computing using Wiring as a student at IDII in 2004\. Interestingly, Gianluca came in as the person who was able to design the board itself (he wasn't just a contractor for manufacturing); he was part of the "Arduino Team".
+<a href="http://vimeo.com/18539129?#t=3m20s" data-lity>3:20</a> - David Cuartielles connaissait déjà Wiring, car il a été embauché pour concevoir deux cartes d'extension pour celui-ci par IDII en 2005, comme indiqué plus haut dans ce document. David Mellis a appris le physical computing en utilisant Wiring en tant qu'étudiant à l'IDII en 2004\. Fait intéressant, Gianluca est venu en tant que personne capable de concevoir la carte elle-même (il n'était pas seulement payé pour la fabrication de celle-ci) ; il faisait partie de "l'équipe Arduino".
 
-<a href="http://vimeo.com/18539129?#t=8m53s" data-lity>8:53</a> - David Cuartielles is presenting at the Media Lab in Madrid, in July 2005: "Arduino is the last project, I finished it last week.  I talked to Ivrea's technical director and told him: Wouldn't it be great if we can do something we offer for free? he says - For free? - Yeah!" David comes across here as the author of a project that he completed "last week", and convincing the "technical director" at IDII to offer it for free.
+<a href="http://vimeo.com/18539129?#t=8m53s" data-lity>8:53</a> - David Cuartielles fait une représentation au Media Lab de Madrid, en juillet 2005 : « Arduino est le dernier projet, je l'ai terminé la semaine dernière. J'ai parlé au directeur technique d'Ivrea et lui ai dit : ne serait-ce pas formidable si nous pouvions l'offrir gratuitement ? Il m'a répondu - Gratuitement ? - Ouais !" David apparaît ici comme l'auteur d'un projet qu'il a terminé "la semaine dernière", et qui a convaincu le "directeur technique" d'IDII de le proposer gratuitement.
 
 <a href="http://vimeo.com/18539129?#t=18m56s" data-lity>18:56</a> - Massimo Banzi:
 
->For us at the beginning it was a specific need: we knew the school was closing and we were afraid that lawyers would show up one day and say - Everything here goes into a box and gets forgotten about. - So we thought - OK, if we open everything about this, then we can survive the closing of the school - So that was the first step.
+>Pour nous au départ c'était un besoin précis : nous savions que l'école fermait et nous avions peur qu'un jour des avocats se présentent et disent - On met tout dans une boîte et on l'oublie. - Alors nous avons pensé - OK, si tout est ouvert, nous pourrons survivre à la fermeture de l'école - C'était donc la première étape.
 
-This one is very special.  It misleadingly presents the fact of making Arduino open source as the consequence of the school closing.  This poses a question: why would a bunch of lawyers "put in a box" a project based on other open source projects?  It is almost puerile.  The problem is, common people might think this is true, forming altruistic reasons for the team to make Arduino open source.
-
+Celui-ci est très spécial. Il présente de manière trompeuse le fait de rendre Arduino open source comme conséquence de la fermeture de l'école. Cela pose une question : pourquoi une bande de juristes « mettrait-elle dans une boîte » un projet basé sur d'autres projets open source ? C'est presque puéril. Le problème est que les gens ordinaires pourraient penser que c'est vrai, ce qui donne à l'équipe des raisons altruistes de rendre Arduino open source.
 * * *
 
-# Absence of Recognition Beyond Wiring
+# Absence de reconnaissance au-delà de Wiring
 
-There seems to be a trend in how the Arduino Team fails to recognize significant parties that contributed to their success.
+Il semble y avoir une tendance dans la façon dont l'équipe Arduino ne reconnaît pas les équipes importantes qui ont contribués à leur succès.
 
-In October 2013, Jan-Christoph Zoels (a former IDII faculty member) wrote to the IDII community mail list, a message presenting the article released at Core77 about the [Intel-Arduino news on Wired UK](http://www.wired.co.uk/news/archive/2013-10/03/intel-arduino-galileo){: target="_blank"}:
+En octobre 2013, Jan-Christoph Zoels (un ancien membre du corps professoral d'IDII) a écrit à la liste de diffusion de la communauté IDII, un message présentant l'article publié sur Core77 à propos des [actualités Intel-Arduino sur Wired UK](http://www.wired .co.uk/news/archive/2013-10/03/intel-arduino-galileo){: target="_blank"} :
 
->A proud moment to see Intel referring to an Interaction Ivrea initiative.
+>C'est un vrai moment de fierté de voir Intel faire référence à une initiative d'Interaction Ivrea.
 
->And a good investment too:
+>Et un bon investissement aussi :
 
->Arduino development was started and developed at Interaction Design Institute Ivrea with an original funding of circa 250.000€. Another good decision was to keep Arduino as open source at the end of Interaction Ivrea in 2005 before merging with Domus.
+>Le développement d'Arduino a été lancé et développé à l'Interaction Design Institute Ivrea avec un financement initial d'environ 250 000 €. Une autre bonne décision a été de garder Arduino en open source à la fin d'Interaction Ivrea en 2005 avant de fusionner avec Domus.
 
-To which Massimo Banzi responded:
+A quoi Massimo Banzi a répondu :
 
->I would like to point out that we never got any funding from Ivrea for Arduino (apart from buying 50 of them in the last year of the institute)
+>Je tiens à préciser que nous n'avons jamais reçu de financement d'Ivrea pour Arduino (à part en avoir acheté 50 dans la dernière année de l'institut)
 
->250.000 EUR is ridiculous…
+> 250.000 EUR c'est ridicule…
 
->This article must be retracted now
+>Cet article doit être retiré maintenant
 
->Sorry JC but you had nothing to do.with  this.... You can't possibly try to get credit for.something you hadn't been involved with
+>Désolé JC mais tu n'as rien à voir avec   ça.... Vous ne pouvez pas essayer d'obtenir de la reconnaissance pour quelque chose dans lequel vous n'aviez pas été impliqué
 
 <div>
 <span style="overflow: hidden; display: inline-block;">
-<a href="/images/full/JCEmailThread1.jpg" data-lity><img alt="Celebration Email Thread Posting" src="/images/JCEmailThread1.jpg" width="300px" height="" /></a></span>
+<a href="/images/full/JCEmailThread1.jpg" data-lity><img alt="Thread de l'email de célébration" src="/images/JCEmailThread1.jpg" width="300px" height="" /></a></span>
 <span style="overflow: hidden; display: inline-block;">
-<a href="/images/full/JCEmailThread2.jpg" data-lity><img alt="Celebration Email Thread Response" src="/images/JCEmailThread2.jpg" width="300px" height="" /></a></span>
+<a href="/images/full/JCEmailThread2.jpg" data-lity><img alt="Réponse au thread de l'email de célébration" src="/images/JCEmailThread2.jpg" width="300px" height="" /></a></span>
 </div>
 
-It was nice, however, to get this a few days later in the same email thread:
+C'était bien, cependant, de recevoir ceci quelques jours plus tard dans le même fil de discussion :
 
-<a href="/images/full/JCEmailThread3.jpg" data-lity><img alt="Celebration Email Thread Follow-up" src="/images/JCEmailThread3.jpg" width="600px" height="" /></a>
+<a href="/images/full/JCEmailThread3.jpg" data-lity><img alt="Suite du thread de l'email de célébration" src="/images/JCEmailThread3.jpg" width="600px" height="" /></a>
 
 * * *
 
-# Distorted Public Information
+# Informations publiques déformées
 
-In this section, I just wanted to show a fraction of the many different articles (and other press) that have been written about Arduino, which include its history that is rarely told the same way twice.
+Dans cette section, je voulais juste montrer une fraction des nombreux articles (et autres articles de presse) qui ont été écrits sur Arduino, qui incluent son histoire, rarement racontée deux fois de la même manière.
 
-So, please, read them at your leisure, and form your own opinions, and, definitely, ask questions!
+Alors, s'il vous plaît, lisez-les à votre guise, et forgez-vous vos propres opinions, et, bien sûr, posez des questions !
 
-## Poor Journalism
+## Mauvais journalisme
 
-It is rare to see well researched journalism these days.  The articles below are excellent examples of that postulate.
+Il est rare de voir du journalisme bien documenté de nos jours. Les articles ci-dessous sont d'excellents exemples de ce postulat.
 
 ### Wired
 
-In a [2008 Wired interview](http://www.wired.com/2008/10/ff-openmanufacturing/){: target="_blank"}, Banzi explains how he did Arduino in a weekend:
+Dans une [Interview de Wiring de 2008](http://www.wired.com/2008/10/ff-openmanufacturing/){: target="_blank"}, Banzi explique comment il a fait Arduino en un week-end :
 
->The two decided to design their own board and enlisted one of Banzi's students—David Mellis—to write the programming language for it. **In two days, Mellis banged out the code**; three days more and the board was complete. They called it the Arduino, after a nearby pub, and it was an instant hit with the students.
+>Les deux ont décidé de concevoir leur propre carte et ont engagé l'un des étudiants de Banzi, David Mellis, pour écrire le langage de programmation correspondant. **En deux jours, Mellis a tapé le code** ; trois jours de plus et la carte était fini. Ils l'ont appelé l'Arduino, du nom d'un pub voisin, et ce fut un succès instantané auprès des étudiants.
 
-This article has been written without any fact checking.  It certainly doesn't help that the interviewee isn't telling them the right information.
+Cet article a été écrit sans aucune vérification des faits. Cela n'aide certainement pas que la personne interrogée ne leur donne pas les bonnes informations.
 
 ### IEEE Spectrum
 
-Here is a [2011 IEEE Spectrum article](http://spectrum.ieee.org/geek-life/hands-on/the-making-of-arduino){: target="_blank"}, titled "The Making of Arduino".
+Voici un [article IEEE Spectrum de 2011](http://spectrum.ieee.org/geek-life/hands-on/the-making-of-arduino){: target="_blank"}, intitulé "The Making of Arduino".
 
-Again, the history is taken verbatim from the interviewee.  I was not contacted before the article was published, even though I was mentioned.  And I doubt that anyone from IDII was contacted.
+Encore une fois, l'histoire est tirée textuellement de la personne interrogée. Je n'ai pas été contacté avant la publication de l'article, même si j'ai été mentionné. Et je doute que quelqu'un de l'IDII ait été contacté.
 
-Just one of the many confusing parts of Arduino's history is in this quote:
+Une seule des nombreuses parties déroutantes de l'histoire d'Arduino se trouve dans cette citation :
 
->Since the purpose was to create a quick and easily accessible platform, they felt they'd be better off opening up the project to as many people as possible rather than keeping it closed.
+>Le but étant de créer une plateforme rapide et facilement accessible, ils ont estimé qu'il valait mieux ouvrir le projet au plus grand nombre plutôt que de le garder fermé.
 
-It was never closed.
+Il n'a jamais été fermé.
 
 ### Circuits Today
 
