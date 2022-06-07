@@ -1,0 +1,89 @@
+<!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <p>Un récit factuel et étayé par des références de ce qui s'est passé au début de l'aventure Arduino !</p>
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="/">Home</a>
+
+    {% comment %}
+      The code below dynamically generates a sidebar nav of pages with
+      `layout: page` in the front-matter. See readme for usage.
+    {% endcomment %}
+
+    {% assign pages_list = site.pages | sort:"url" %}
+    {% for node in pages_list %}
+      {% if node.title != null %}
+        {% if node.layout == "page" %}
+          <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+
+    <a class="sidebar-nav-item" href="{{ site.github}}" target="_blank">Corriger des erreurs sur GitHub</a>
+  </nav>
+
+  <ul>
+    <li><a href="#pourquoi-écrivez-vous-ceci" id="markdown-toc-pourquoi-écrivez-vous-ceci">Pourquoi écrivez-vous ceci ?</a></li>
+    <li><a href="#pourquoi-avez-vous-créé-wiring" id="markdown-toc-pourquoi-avez-vous-créé-wiring">Pourquoi avez-vous créé Wiring?</a></li>
+    <li><a href="#comment-wiring-a-t-il-été-créé" id="markdown-toc-comment-wiring-a-t-il-été-créé">Comment Wiring a-t-il été créé ?</a>    <ul>
+        <li><a href="#le-langage" id="markdown-toc-le-langage">Le Langage</a></li>
+        <li><a href="#le-hardware" id="markdown-toc-le-hardware">Le Hardware</a>        <ul>
+            <li><a href="#prototype-1" id="markdown-toc-prototype-1">Prototype 1</a></li>
+            <li><a href="#prototype-2" id="markdown-toc-prototype-2">Prototype 2</a></li>
+            <li><a href="#prototype-3" id="markdown-toc-prototype-3">Prototype 3</a></li>
+          </ul>
+        </li>
+        <li><a href="#poursuite-du-développement" id="markdown-toc-poursuite-du-développement">Poursuite du développement</a></li>
+        <li><a href="#premier-succès-majeur---strangely-familiar" id="markdown-toc-premier-succès-majeur---strangely-familiar">Premier succès majeur - Strangely Familiar</a></li>
+        <li><a href="#le-reste-du-monde" id="markdown-toc-le-reste-du-monde">Le reste du monde</a></li>
+      </ul>
+    </li>
+    <li><a href="#quand-arduino-a-t-il-commencé-et-pourquoi-nétiez-vous-pas-membre-de-léquipe-arduino" id="markdown-toc-quand-arduino-a-t-il-commencé-et-pourquoi-nétiez-vous-pas-membre-de-léquipe-arduino">Quand Arduino a-t-il commencé et pourquoi n’étiez-vous pas membre de l’équipe Arduino ?</a>    <ul>
+        <li><a href="#la-formation-darduino" id="markdown-toc-la-formation-darduino">La formation d’Arduino</a></li>
+      </ul>
+    </li>
+    <li><a href="#léquipe-arduino-travaillait-elle-avec-wiring-avant-arduino" id="markdown-toc-léquipe-arduino-travaillait-elle-avec-wiring-avant-arduino">L’équipe Arduino travaillait-elle avec Wiring avant Arduino ?</a></li>
+    <li><a href="#quest-ce-que-programma2003-et-comment-est-il-lié-à-vous-ou-à-wiring" id="markdown-toc-quest-ce-que-programma2003-et-comment-est-il-lié-à-vous-ou-à-wiring">Qu’est-ce que Programma2003 et comment est-il lié à vous ou à Wiring ?</a></li>
+    <li><a href="#pourquoi-arduino-na-t-il-pas-fait-plus-deffort-pour-reconnaître-linfluence-de-wiring-" id="markdown-toc-pourquoi-arduino-na-t-il-pas-fait-plus-deffort-pour-reconnaître-linfluence-de-wiring-">Pourquoi Arduino n’a-t-il pas fait plus d’effort pour reconnaître l’influence de Wiring ?</a></li>
+    <li><a href="#le-demandeur-contre-le-défendeur" id="markdown-toc-le-demandeur-contre-le-défendeur">Le demandeur contre le défendeur</a></li>
+    <li><a href="#un-flux-continue-dinformations-trompeuses" id="markdown-toc-un-flux-continue-dinformations-trompeuses">Un flux continu d’informations trompeuses</a>    <ul>
+        <li><a href="#le-tristement-célèbre-diagramme" id="markdown-toc-le-tristement-célèbre-diagramme">Le tristement célèbre diagramme</a></li>
+        <li><a href="#the-arduino-documentary" id="markdown-toc-the-arduino-documentary">The Arduino Documentary</a></li>
+      </ul>
+    </li>
+    <li><a href="#absence-de-reconnaissance-au-delà-de-wiring" id="markdown-toc-absence-de-reconnaissance-au-delà-de-wiring">Absence de reconnaissance au-delà de Wiring</a></li>
+    <li><a href="#informations-publiques-déformées" id="markdown-toc-informations-publiques-déformées">Informations publiques déformées</a>    <ul>
+        <li><a href="#mauvais-journalisme" id="markdown-toc-mauvais-journalisme">Mauvais journalisme</a>        <ul>
+            <li><a href="#wired" id="markdown-toc-wired">Wired</a></li>
+            <li><a href="#ieee-spectrum" id="markdown-toc-ieee-spectrum">IEEE Spectrum</a></li>
+            <li><a href="#circuits-today" id="markdown-toc-circuits-today">Circuits Today</a></li>
+            <li><a href="#makezine" id="markdown-toc-makezine">Makezine</a></li>
+          </ul>
+        </li>
+        <li><a href="#erreurs-académiques" id="markdown-toc-erreurs-académiques">Erreurs académiques</a></li>
+      </ul>
+    </li>
+    <li><a href="#plus-de-liens-pour-votre-lecture" id="markdown-toc-plus-de-liens-pour-votre-lecture">Plus de liens pour votre lecture</a>    <ul>
+        <li><a href="#articles-about-arduino-vs-arduino" id="markdown-toc-articles-about-arduino-vs-arduino">Articles About Arduino vs. Arduino</a></li>
+        <li><a href="#video" id="markdown-toc-video">Video</a></li>
+      </ul>
+    </li>
+    <li><a href="#merci" id="markdown-toc-merci">Merci!</a></li>
+    <li><a href="#index" id="markdown-toc-index">Index</a></li>
+  </ul>
+  
+
+  <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
+
+  <div class="sidebar-item">
+    <p>
+      &copy; {{ site.time | date: '%Y' }} {{ site.author.name }}. Distributed with an MIT license.
+    </p>
+  </div>
+</div>
