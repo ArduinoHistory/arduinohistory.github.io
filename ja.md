@@ -15,7 +15,7 @@ sidebar: sidebar-ja.html
 
 何年にもわたって、特に最近は例の[Arduino LLCとArduino S.R.L.の訴訟](http://hackaday.com/2015/03/12/arduino-v-arduino-part-ii/){: target="_blank"}のせいで、数多くの人々からWiringと、もちろんArduinoの歴史について質問をもらっています。
 
-この[アメリカ合衆国連邦裁判所のウェブサイト](https://www.unitedstatescourts.org/federal/mad/167131/){: target="_blank"}を見せられました。ここでは、原告の主張の裏付けとして私の研究に触れられていますが、これは私の研究をとりまく事柄を歪めるものだと私は思います。
+この[アメリカ合衆国連邦裁判所のウェブサイト](https://www.courtlistener.com/docket/4275827/arduino-llc-v-arduino-srl/){: target="_blank"}を見せられました。ここでは、原告の主張の裏付けとして私の研究に触れられていますが、これは私の研究をとりまく事柄を歪めるものだと私は思います。
 
 Arduinoの歴史は数多くの人々が語りますが、みんな違う事を言っています。Arduinoの起源について興味を持つ方々とより良い対話をするため、適切な参考文献を示しながら、Arduinoの歴史についてのいくつかの事実を解明して行きたいと思います。
 
@@ -35,7 +35,7 @@ Arduinoの歴史は数多くの人々が語りますが、みんな違う事を�
 
 Massimo Banziと[Casey Reas](https://en.wikipedia.org/wiki/C.E.B._Reas){: target="_blank"}（[Processing](https://en.wikipedia.org/wiki/Processing_(programming_language)){: target="_blank"}で知られています）は、この論文での指導教官でした。
 
-このプロジェクトは、IDIIで大きな注目を集め、2004年からIDIIが閉鎖される2005年までの間、[いくつかの](http://www.nastypixel.com/instantsoup){: target="_blank"}プロジェクトで使われました。
+このプロジェクトは、IDIIで大きな注目を集め、2004年からIDIIが閉鎖される2005年までの間、[いくつかの](https://web.archive.org/web/20080220010711/http://www.nastypixel.com/instantsoup/website/cover/){: target="_blank"}プロジェクトで使われました。
 
 この論文により、IDIIで2004年に個人として唯一の表彰を受けて卒業しました。このあと、コロンビアの[Universidad de Los Andes](http://www.uniandes.edu.co/){: target="_blank"}に講師の職を得て、インタラクションデザインを教えるかたわら、Wiringの開発を続けました。
 
@@ -184,7 +184,7 @@ FTDI評価ボードをMAVRICボードに接続して、三番目のWiring試作�
 
 2004年にIDIIを卒業したあと、私はコロンビアに戻り、Universidad de Los Andesでインタラクションデザインをインストラクターとして教え始めました。Wiringの開発を継続していたことから、2004年の後期にフィジカルコンピューティングを教えるために、IDIIは100台のWiringボードを作ることを決断しました。IDIIの職員だった[Bill Verplank](http://www.billverplank.com/){: target="_blank"}はMassimo Banziに、コロンビアの私のクラスで使えるよう、私にボードを10枚送るように依頼しました。
 
-2004年、職員であった[Yaniv Steiner](http://www.nastypixel.com/prototype/people/yaniv-steiner-2){: target="_blank"}、学生であったGiorgio OliveroとPaolo Sancisは、IDIIでWiringを使った[Instant Soup Project](http://www.nastypixel.com/instantsoup/website/cover/){: target="_blank"}というプロジェクトを始めました。
+2004年、職員であった[Yaniv Steiner](http://www.nastypixel.com/prototype/people/yaniv-steiner-2){: target="_blank"}、学生であったGiorgio OliveroとPaolo Sancisは、IDIIでWiringを使った[Instant Soup Project](https://web.archive.org/web/20080220010711/http://www.nastypixel.com/instantsoup/website/cover/){: target="_blank"}というプロジェクトを始めました。
 
 ## 最初の大きな成功ーStrangely Familiar
 

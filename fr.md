@@ -13,7 +13,7 @@ Bonjour. Je m'appelle Hernando Barragán.
 
 Au fil des années, et plus récemment à cause des affaires entre [Arduino LLC et Arduino S.R.L.](http://hackaday.com/2015/03/12/arduino-v-arduino-part-ii/){: target="_blank"}, j'ai reçu beaucoup de questions sur l'histoire de Wiring et, bien sûr, d'Arduino.
 
-On m'a également montré [ce site Web des tribunaux fédéraux des États-Unis](https://www.unitedstatescourts.org/federal/mad/167131/){: target="_blank"}, qui présente des documents citant mon travail pour appuyer les allégations du plaignant qui, à mon avis, contribuent à la déformation des informations entourant mon travail.
+On m'a également montré [ce site Web des tribunaux fédéraux des États-Unis](https://www.courtlistener.com/docket/4275827/arduino-llc-v-arduino-srl/){: target="_blank"}, qui présente des documents citant mon travail pour appuyer les allégations du plaignant qui, à mon avis, contribuent à la déformation des informations entourant mon travail.
 
 L'histoire d'Arduino a été racontée par de nombreuses personnes, et il n'y a pas deux histoires qui correspondent. Je souhaite clarifier certains faits autour de l'histoire d'Arduino, avec des références et des documents appropriés, afin de mieux communiquer aux personnes intéressées, l'origine d'Arduino.
 
@@ -33,7 +33,7 @@ L'intégralité de cette thèse peut être téléchargée ici : [http://people.i
 
 Massimo Banzi et [Casey Reas](https://en.wikipedia.org/wiki/C.E.B._Reas){: target="_blank"} (connu pour son travail sur [Processing](https://en.wikipedia.org/wiki/Processing_(programming_language)){: target="_blank"}) étaient les directeurs de ma thèse.
 
-Le projet a reçu beaucoup d'attention à l'IDII et a été utilisé sur [plusieurs](http://www.nastypixel.com/instantsoup){: target="_blank"} autres projets à partir de 2004, jusqu'à la fermeture de l'école à 2005.
+Le projet a reçu beaucoup d'attention à l'IDII et a été utilisé sur [plusieurs](https://web.archive.org/web/20080220010711/http://www.nastypixel.com/instantsoup/website/cover/){: target="_blank"} autres projets à partir de 2004, jusqu'à la fermeture de l'école à 2005.
 
 Grâce à ma thèse, j'ai fièrement obtenu mon diplôme avec distinction; j'étais la seule personne à l'IDII en 2004 à recevoir cette distinction. J'ai poursuivi le développement de Wiring tout en travaillant à l'[Universidad de Los Andes](http://www.uniandes.edu.co/){: target="_blank"} en Colombie, où j'ai commencé à enseigner en tant qu'instructeur en interactive design.
 
@@ -182,7 +182,7 @@ J'ai soudé ces 25 cartes à la main et j'ai commencé à effectuer des tests d'
 
 Après avoir obtenu mon diplôme à l'IDII en 2004, je suis retourné en Colombie et j'ai commencé à enseigner en tant qu'instructeur en interactive design à l'Universidad de Los Andes. Alors que je continuais à développer Wiring, IDII a décidé de fabriquer et d'assembler un lot de 100 cartes Wiring pour enseigner le physical computing à IDII fin 2004. [Bill Verplank](http://www.billverplank.com/){: target=" _blank"} (un ancien membre du corps professoral de l'IDII) a demandé à Massimo Banzi de m'envoyer 10 cartes pour que je l'aie utilisé dans mes cours en Colombie.
 
-En 2004, le membre de faculté [Yaniv Steiner](http://www.nastypixel.com/prototype/people/yaniv-steiner-2){: target="_blank"}, l'ancien étudiant Giorgio Olivero et le consultant en information designer  Paolo Sancis a lancé le [Instant Soup Project](http://www.nastypixel.com/instantsoup/website/cover/){: target="_blank"}, basé sur Wiring à IDII.
+En 2004, le membre de faculté [Yaniv Steiner](http://www.nastypixel.com/prototype/people/yaniv-steiner-2){: target="_blank"}, l'ancien étudiant Giorgio Olivero et le consultant en information designer  Paolo Sancis a lancé le [Instant Soup Project](https://web.archive.org/web/20080220010711/http://www.nastypixel.com/instantsoup/website/cover/){: target="_blank"}, basé sur Wiring à IDII.
 
 ## Premier succès majeur - Strangely Familiar
 
