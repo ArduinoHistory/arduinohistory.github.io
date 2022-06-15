@@ -3,7 +3,7 @@ layout: default
 title: Die wirklich wahre Geschichte von Arduino
 sidebar: sidebar-de.html
 ---
-[English](/) &middot; [日本語](ja) &middot; [italiano](it)
+[English](/) &middot; [日本語](ja) &middot; [italiano](it) &middot; [Français](fr)
 
 [Index](#index)
 

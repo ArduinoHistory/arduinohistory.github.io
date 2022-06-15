@@ -3,7 +3,7 @@ layout: default
 title: La storia non raccontata di Arduino
 sidebar: sidebar-it.html
 ---
-[English](/) &middot; [日本語](ja) &middot; [Deutsche](de)
+[English](/) &middot; [日本語](ja) &middot; [Deutsche](de) &middot; [Français](fr)
 
 [Index](#index)
 
