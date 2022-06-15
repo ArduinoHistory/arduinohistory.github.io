@@ -3,7 +3,7 @@ layout: default
 title: L'histoire inconnue de l'Arduino
 sidebar: sidebar-fr.html
 ---
-[English](/) &middot; [日本語](ja) &middot; [Deutsche](de) &middot; [italiano](it)
+[English](/) &middot; [日本語](ja) &middot; [Deutsch](de) &middot; [italiano](it)
 
 [Index](#index)
 
