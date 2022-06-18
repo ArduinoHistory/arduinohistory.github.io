@@ -17,7 +17,7 @@ On m'a également montré [ce site Web des tribunaux fédéraux des États-Unis]
 
 L'histoire d'Arduino a été racontée par de nombreuses personnes, et il n'y a pas deux histoires qui correspondent. Je souhaite clarifier certains faits autour de l'histoire d'Arduino, avec des références et des documents appropriés, afin de mieux communiquer aux personnes intéressées, l'origine d'Arduino.
 
-De plus, je tenterai de corriger certaines choses qui sont trompeur à propos de mon rôle ou mon travail en soulignant les erreurs courantes, les informations trompeuses et le mauvais journalisme.
+De plus, je tenterai de corriger certaines choses qui sont trompeuses à propos de mon rôle ou mon travail en soulignant les erreurs courantes, les informations trompeuses et le mauvais journalisme.
 
 Je ferai d'abord un résumé de l'histoire, puis je répondrai à une série de questions qui m'ont souvent été posées au fil des ans.
 
@@ -117,7 +117,7 @@ Pour plus d'informations sur ce prototype, voir page 42 de ma thèse.
 
 Les tests de prototypages précédents ont conduit au troisième prototype, où le microcontrôleur a été réduit à un microcontrôleur encore puissant, mais avec la possibilité de le bricoler sans exigences d'équipement spécialisé ou de périphériques supplémentaires embarqués.
 
-J'ai sélectionné le microcontrôleur Atmel [ATmega128](http://www.atmel.com/devices/ATMEGA128.aspx){: target="_blank"} et j'ai acheté une carte d'évaluation Atmel [STK500](http://www.atmel.com /tools/STK500.aspx){: target="_blank"} avec un socket spéciale pour l'ATmega128.
+J'ai sélectionné le microcontrôleur Atmel [ATmega128](http://www.atmel.com/devices/ATMEGA128.aspx){: target="_blank"} et j'ai acheté une carte d'évaluation Atmel [STK500](http://www.atmel.com /tools/STK500.aspx){: target="_blank"} avec un socket spécial pour l'ATmega128.
 
 <a href="/images/full/WiringPrototype3-AtmelATmega128.jpg" data-lity><img alt="Wiring Prototype 3 - Atmel STK500 with ATmega128" src="/images/WiringPrototype3-AtmelATmega128.jpg" width="600px" height="" /></a>
 ***Photo d'un Atmel STK500 avec l'extension ATmega128.***
@@ -180,7 +180,7 @@ J'ai soudé ces 25 cartes à la main et j'ai commencé à effectuer des tests d'
 
 ## Poursuite du développement
 
-Après avoir obtenu mon diplôme à l'IDII en 2004, je suis retourné en Colombie et j'ai commencé à enseigner en tant qu'instructeur en interactive design à l'Universidad de Los Andes. Alors que je continuais à développer Wiring, IDII a décidé de fabriquer et d'assembler un lot de 100 cartes Wiring pour enseigner le physical computing à IDII fin 2004. [Bill Verplank](http://www.billverplank.com/){: target=" _blank"} (un ancien membre du corps professoral de l'IDII) a demandé à Massimo Banzi de m'envoyer 10 cartes pour que je l'aie utilisé dans mes cours en Colombie.
+Après avoir obtenu mon diplôme à l'IDII en 2004, je suis retourné en Colombie et j'ai commencé à enseigner en tant qu'instructeur en interactive design à l'Universidad de Los Andes. Alors que je continuais à développer Wiring, IDII a décidé de fabriquer et d'assembler un lot de 100 cartes Wiring pour enseigner le physical computing à IDII fin 2004. [Bill Verplank](http://www.billverplank.com/){: target=" _blank"} (un ancien membre du corps professoral de l'IDII) a demandé à Massimo Banzi de m'envoyer 10 cartes pour que je les utilisent dans mes cours en Colombie.
 
 En 2004, le membre de faculté [Yaniv Steiner](http://www.nastypixel.com/prototype/people/yaniv-steiner-2){: target="_blank"}, l'ancien étudiant Giorgio Olivero et le consultant en information designer  Paolo Sancis a lancé le [Instant Soup Project](https://web.archive.org/web/20080220010711/http://www.nastypixel.com/instantsoup/website/cover/){: target="_blank"}, basé sur Wiring à IDII.
 
@@ -262,7 +262,7 @@ En mai 2005, j'ai passé un contrat avec [Advanced Circuits](http://www.4pcb.co
 
 ## La formation d'Arduino
 
-Lorsque IDII a fabriqué le premier ensemble de cartes Wiring, le coût était probablement d'environ 50$ USD chacun. (Je ne sais pas quel était le coût réel, car je n'étais pas impliqué dans le processus. Cependant, je vendais les cartes en Colombie pour environ 60$ USD.) C'était une baisse de prix considérable par rapport aux cartes qui était actuellement disponible, mais cela représentait toujours un coût important pour la plupart des gens.
+Lorsque IDII a fabriqué le premier ensemble de cartes Wiring, le coût était probablement d'environ 50$ USD chacun. (Je ne sais pas quel était le coût réel, car je n'étais pas impliqué dans le processus. Cependant, je vendais les cartes en Colombie pour environ 60$ USD.) C'était une baisse de prix considérable par rapport aux cartes qui étaient actuellement disponible, mais cela représentait toujours un coût important pour la plupart des gens.
 
 En 2005, Massimo Banzi, avec David Mellis (à l'époque, un étudiant d'IDII) et David Cuartielles, ont ajouté le microcontrôleur ATmega8 , qui était moins cher, sur Wiring. Ensuite, ils ont forké (ou copié) le code source de Wiring et ont commencé à travailler dessus en tant que projet distinct, appelé Arduino.
 
@@ -364,7 +364,7 @@ La référence à Wiring sur le site Web Arduino.cc, bien qu'elle se soit légè
 <a href="/images/full/ArduinoCCCredits-2016-02-23.jpg" data-lity><img alt="Extrait de la pages des remerciements d'Arduino.cc - 2016-02-23" src="/images/ArduinoCCCredits-2016-02-23.jpg" width="600px" height="" /></a>
 ***Version de l'histoire d'arduino depuis le site web Arduino.cc [https://www.arduino.cc/en/Main/Credits](https://www.arduino.cc/en/Main/Credits){: target="_blank"}***
 
-Cet album photo Flickr de Massimo Banzi à aussi ajouter un peu de confusion:
+Cet album photo Flickr de Massimo Banzi a aussi ajouter un peu de confusion:
 
 [https://www.flickr.com/photos/mbanzi/albums/72157633136997919/with/8610131426/](https://www.flickr.com/photos/mbanzi/albums/72157633136997919/with/8610131426/){: target="_blank"}
 
@@ -386,7 +386,7 @@ Voici ce qui, à mon avis, est faux avec cette affirmation :
 
 1. Programma2003 n'était pas une plateforme de développement, c'était simplement une carte. Aucun logiciel n'a été développé par le demandeur pour gérer cette carte.
 2. Le lien est vide, il n'y a pas de fichiers dans ce repository Sourceforge, alors pourquoi présenter un repository vide comme preuve ?
-3. L'idée que le simple fait que Banzi ait été mon directeur de thèse lui confère une sorte de prétention supérieure au travail effectué sur Wiring est, pour le moins, frustrante à lire.
+3. L'idée que le simple fait que Banzi ait été mon directeur de thèse et que cela lui confère une sorte de prétention supérieure au travail effectué sur Wiring est, pour le moins, frustrante à lire.
 
 De plus:
 
@@ -407,7 +407,7 @@ Il peut être légal de prendre le modèle, la philosophie, le discours et les m
 
 Quelqu'un a dit un jour :
 
->"Si nous ne mettons pas les choses bien aux clairs, les gens tirent leurs propres conclusions et elles deviennent des faits même si nous n'avons jamais rien dit de telle."[^4]
+>"Si nous ne mettons pas les choses bien aux clairs, les gens tirent leurs propres conclusions et elles deviennent des faits même si nous n'avons jamais rien dit de tel."[^4]
 
 Il me semble que cela est universellement vrai, et surtout si vous induisez en erreur les gens avec seulement de légères altérations de la vérité, vous pouvez avoir un contrôle sur leurs conclusions.
 
@@ -428,7 +428,7 @@ Malgré le fait que rien n'a été changé dans ce document hautement public, je
 
 ## The Arduino Documentary
 
-Un autre média qui a fait beaucoup de lui de 2010 était [The Arduino Documentary](https://vimeo.com/18539129){: target="_blank"} (écrit et réalisé par Raúl Alaejos, Rodrigo Calvo).
+Un autre média qui a fait beaucoup parler de lui de 2010 était [The Arduino Documentary](https://vimeo.com/18539129){: target="_blank"} (écrit et réalisé par Raúl Alaejos, Rodrigo Calvo).
 
 Celui-ci est très intéressant, surtout vu récemment en 2016\. Je pense que l'idée de faire un documentaire est très bonne, surtout pour un projet avec une histoire aussi riche.
 
@@ -497,7 +497,7 @@ Il est rare de voir du journalisme bien documenté de nos jours. Les articles ci
 
 Dans une [Interview de Wired de 2008](http://www.wired.com/2008/10/ff-openmanufacturing/){: target="_blank"}, Banzi explique comment il a fait Arduino en un week-end :
 
->Les deux ont décidé de concevoir leur propre carte et ont engagé l'un des étudiants de Banzi, David Mellis, pour écrire le langage de programmation correspondant. **En deux jours, Mellis a tapé le code** ; trois jours de plus et la carte étaient finis. Ils l'ont appelé l'Arduino, du nom d'un pub voisin, et ce fut un succès instantané auprès des étudiants.
+>Les deux ont décidé de concevoir leur propre carte et ont engagé l'un des étudiants de Banzi, David Mellis, pour écrire le langage de programmation correspondant. **En deux jours, Mellis a tapé le code** ; trois jours de plus et la carte était finie. Ils l'ont appelée l'Arduino, du nom d'un pub voisin, et ce fut un succès instantané auprès des étudiants.
 
 Cet article a été écrit sans aucune vérification des faits. Cela n'aide certainement pas que la personne interrogée ne leur donne pas les bonnes informations.
 
@@ -521,7 +521,7 @@ Il n'a jamais été fermé.
 
 >Une équipe de cinq développeurs a travaillé sur cette thèse et lorsque la nouvelle plateforme de Wiring a été terminée, ils ont travaillé pour la rendre beaucoup plus légère, moins chère et disponible pour la communauté open source.
 
-Le titre de ma thèse est évidemment faux. Il n'y avait pas cinq "développeurs" travaillant sur la thèse. Et le code était toujours open source.
+Le titre de ma thèse est évidemment faux. Il n'y avait pas cinq "développeurs" travaillant sur la thèse. Et le code a toujours été open source.
 
 Encore une fois, je n'ai pas été consulté.
 
@@ -534,13 +534,13 @@ Dans [une interview de 2013 de Dale Dougherty avec Massimo Banzi](http://makezin
 
 Dans cette version de l'histoire de Massimo Banzi, Arduino est issu de Wiring, mais il est sous-entendu que j'ai insisté pour avoir une carte à un prix élevé.
 
-Concernant le "désaccord": je n'ai jamais eu de discussion avec Massimo Banzi sur le fait que la carte était trop chère. J'aurais aimé que lui et moi ayons eu plus de discussions sur ces questions, comme j'en ai eu avec d'autres conseillers et collègues, car je trouve cela très enrichissant. La chose la plus proche d'un désaccord a eu lieu après une présentation de thèse réussi, où Massimo a montré un comportement étrange envers moi. Parce qu'il était mon conseiller, j'étais désavantagé, mais j'ai demandé à Massimo pourquoi il se comportait mal envers moi, ce à quoi je n'ai reçu aucune réponse. Je me sentais menacé et c'était très gênant.
+Concernant le "désaccord": je n'ai jamais eu de discussion avec Massimo Banzi sur le fait que la carte était trop chère. J'aurais aimé que lui et moi ayons eu plus de discussions sur ces questions, comme j'en ai eu avec d'autres conseillers et collègues, car je trouve cela très enrichissant. La chose la plus proche d'un désaccord a eu lieu après une présentation de thèse réussie, où Massimo a montré un comportement étrange envers moi. Parce qu'il était mon conseiller, j'étais désavantagé, mais j'ai demandé à Massimo pourquoi il se comportait mal envers moi, ce à quoi je n'ai reçu aucune réponse. Je me sentais menacé et c'était très gênant.
 
 Son comportement étrange s'est étendu à ceux qui ont collaboré avec moi sur Wiring plus tard.
 
 >J'ai décidé que nous pouvions faire une version open source de Wiring, en partant de zéro. J'ai demandé à Gianluca Martino [maintenant l'un des cinq partenaires Arduino] de m'aider à fabriquer les premiers prototypes, les premières cartes.
 
-Ici, Massimo implique à nouveau que Wiring n'était pas open source, alors que c'était le cas. Et aussi qu'ils construiraient le logiciel à partir de "zéro", ce qu'ils n'ont pas fait.
+Ici, Massimo implique à nouveau que Wiring n'était pas open source, alors que c'était le cas. Et aussi qu'ils auraient construit le logiciel à partir de "zéro", ce qu'ils n'ont pas fait.
 
 ## Erreurs académiques
 
