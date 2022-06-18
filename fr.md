@@ -197,9 +197,9 @@ Ce projet fut un succès retentissant tant pour les étudiants que pour les prof
 
 Le 16 décembre 2004, Bill Verplank m'a envoyé un e-mail disant :
 
->[Les projets] étaient merveilleux. Tout le monde avait des résultats fonctionnels. Cinq des projets avaient même des moteurs ! Les projets les plus avancés (de deux diplômés du MIT - architecte et mathématicien) ont permis de dessiner un profil dans Proce55ing et de le ressentir avec une roue/moteur pilotée par Wiring...
+>Les projets étaient merveilleux. Tout le monde avait des résultats fonctionnels. Cinq des projets avaient même des moteurs ! Les projets les plus avancés (de deux diplômés du MIT - architecte et mathématicien) ont permis de dessiner un profil dans Proce55ing et de le ressentir avec une roue/moteur pilotée par Wiring...
 
->Il est clair que l'un des éléments du succès a été [l']utilisation des cartes Wiring.
+>Il est clair que l'un des éléments du succès a été l'utilisation des cartes Wiring.
 
 Voici le résumé du cours ::
 
